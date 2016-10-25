@@ -1,0 +1,46 @@
+<nav class="navbar nav-header" id="navigation-header" role="navigation">
+    <div class="col-sm-4 col-xs-4">
+        <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="showLeft"
+                onclick="window.location = 'index.html';">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <!--                <span class="menu">Menu</span>-->
+    </div>
+    <div class="col-sm-4 col-xs-4 no-pad-xs">
+        <p class="logo home-logo">LiveSchool</p>
+    </div>
+    <div class="btn-group no-pad-right" id="dropdown-wrapper">
+        <div class="dropdown-toggle" data-toggle="dropdown">
+            <img src="img/user-img.svg" alt="User photo" class="user-photo">
+        </div>
+        <ul class="dropdown-menu block">
+            <li data-toggle="modal" data-target="#myModal">
+                <a href="#">
+                    <div class="icon-wrap">
+                        <img src="img/user-icon.svg" alt="Add user icon">
+                    </div>
+                    <label>Add a Parent</label>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="icon-wrap">
+                        <img src="img/pass-icon.svg" alt="Change Password icon">
+                    </div>
+                    <label>Change Password</label>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="icon-wrap">
+                        <img src="img/logout-icont.svg" alt="Logout icon">
+                    </div>
+                    <label>Logout</label>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>

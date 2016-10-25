@@ -1,0 +1,3692 @@
+html,
+body {
+    height: 100%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    /*    padding-bottom: 66px;*/
+    
+    background-color: #2b3464;
+    font: 13px/15px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.main {
+    min-height: 100%;
+    height: 100%;
+}
+
+.container.wrap {
+    width: 950px;
+    background-color: #fff;
+    padding: 0;
+}
+/*--------common styles--------*/
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+/*--------/common styles--------*/
+/*--------navbar--------*/
+
+.navbar {
+    padding: 0 15px;
+}
+
+.navbar-header {
+    padding-top: 5px;
+}
+
+.login-btn {
+    float: right;
+    background-color: #4c6d98;
+    border: 1px solid #4c6d98;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -1px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0px 15px 2px;
+    margin-right: 5px;
+}
+
+.login-btn:hover {
+    background-color: #304a70;
+}
+
+.navbar .container-img {
+    padding: 20px 0 0;
+    float: right;
+}
+
+.images-navbar {
+    padding: 30px 0 0;
+}
+
+.images-navbar img {
+    width: 78px;
+    height: 63px;
+    float: right;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.navbar2 .navbar {
+    background: url(../img/nav-bg-img.png) no-repeat center top;
+    background-size: 101% 84%;
+    padding-top: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.navbar2 .header-logo img {
+    margin: -15px 0 0 -20px;
+}
+
+.navbar2 .login-btn-container {
+    position: absolute;
+    right: 0px;
+    top: -64px;
+}
+
+.navbar2 .login-btn {
+    margin: 0;
+}
+
+.navbar2 .header-logo {
+    position: absolute;
+    top: -75px;
+}
+
+.navbar2 p.call {
+    font: 17px/25px MyriadProBold, Arial, sans-serif;
+    color: #ec4900;
+    float: right;
+    margin: -30px 0 0 10px;
+}
+/*--------/navbar--------*/
+/*--------section-sertified-doctors--------*/
+
+.section-sertified-doctors .container-wrap {
+    box-shadow: 0px 9px 9px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section-sertified-doctors .bg {
+    background: url(../img/sertified-doctors-bg.png) no-repeat center top;
+    background-size: 104%;
+    padding: 39% 0 0 0;
+}
+
+.section-sertified-doctors .container-img {
+    padding: 4% 0 0;
+}
+
+.section-sertified-doctors .bg .first-block {
+    position: absolute;
+    top: 0;
+}
+
+.doctor-img {
+    background: url(../img/doctor-img.png) no-repeat left top;
+    background-size: 95%;
+    padding-top: 135%;
+}
+
+.section-sertified-doctors p.slogan {
+    width: 370px;
+    color: #4170a5;
+    padding-top: 25%;
+    font: 27px/32px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+}
+
+.section-sertified-doctors .primary-content {
+    background: #e4e3e3;
+    padding-bottom: 3%;
+    /*    box-shadow: 0px 6px 9px 1px rgba(0, 0, 0, 0.3);*/
+}
+
+.promo-block {
+    background: url(../img/promo-arrow.png) no-repeat left top;
+    background-size: 100%;
+    margin-left: -36px;
+    padding: 95px 70px 50px;
+    color: #fff;
+    font: 23px/36px MyriadProBold, Arial, sans-serif;
+    text-shadow: #000 1px 1px 0;
+    z-index: 10;
+    position: absolute;
+}
+
+.section-sertified-doctors .promo-wrap {
+    margin-top: -135px;
+}
+
+.section-sertified-doctors .fda-text-block span {
+    color: #ee2428;
+    text-transform: uppercase;
+    font: 25px/30px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+}
+
+.section-sertified-doctors .free-shipping-block {
+    margin: 4% 0 0 -2%;
+}
+
+.section-sertified-doctors .free-shipping-block p {
+    color: #000;
+    font: 22px/24px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    text-align: center;
+}
+
+.section-sertified-doctors .free-shipping-block p span {
+    color: #ee2428;
+    display: block;
+    font: 25px/27px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+}
+
+.section-sertified-doctors .free-shipping-block p.call {
+    font: 17px/25px Arial, Verdana, Tahoma, sans-serif;
+    padding: 0;
+    float: none;
+    color: #ee2428;
+}
+
+.section-sertified-doctors .free-shipping-block p.call span {
+    font-size: 19px;
+    font-weight: bold;
+    display: inline;
+    padding: 0;
+}
+
+.section-sertified-doctors .free-shipping-block a.btn {
+    display: block;
+    text-indent: -10000px;
+    height: 47px;
+    width: 174px;
+    margin: 0 auto;
+    background: url(../img/free-shipping-block-btn.png) no-repeat left top;
+}
+
+.section-sertified-doctors .free-shipping-block a.btn:hover {
+    background-position: left -47px;
+}
+
+.section-sertified-doctors .fda-text-block {
+    font-size: 23px;
+    line-height: 25px;
+    padding: 10px 0 0;
+    font-family: HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-sertified-doctors .fda-text-block p {
+    padding: 0 15px 0 22%;
+    color: #000;
+}
+
+.fda-cleared-img {
+    background: url(../img/fda-cleared-img.png) no-repeat right top;
+    background-size: 105%;
+    padding-top: 55%;
+}
+
+.promo-area {
+    padding: 0 15px;
+    margin-top: -50px;
+}
+
+.promo-area h3 {
+    font: normal 25px/27px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    color: #ee2428;
+    display: block;
+    height: 65px;
+    text-align: center;
+    margin: 0;
+}
+
+.promo-area p {
+    font: bold 13px/14px Arial;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 1% 2%;
+}
+
+.promo-area .content-wrap {
+    position: absolute;
+    top: 68px;
+}
+
+.promo-area .promo-container:nth-child(2),
+.promo-area .promo-container:nth-child(3) {
+    margin-left: 4.15%;
+}
+
+.have-cpap {
+    background: url(../img/have-cpap.png) no-repeat center bottom;
+    background-size: 100%;
+    padding-bottom: 70%;
+}
+
+.need-cpap {
+    background: url(../img/need-cpap.png) no-repeat center bottom;
+    background-size: 100%;
+    padding-bottom: 70%;
+}
+
+.need-test {
+    background: url(../img/need-test.png) no-repeat center bottom;
+    background-size: 100%;
+    padding-bottom: 70%;
+}
+
+.section-sertified-doctors .promo-container .bg-promo {
+    background-size: 38%;
+    padding-top: 120%;
+    top: -80px;
+    background: url(../img/promo-area-bg.png) no-repeat right top;
+}
+
+.promo-container:last-child {
+    background: none;
+}
+/*--------/section-sertified-doctors--------*/
+/*--------section-steps-eliminating--------*/
+
+.section-steps-eliminating .bg {
+    border: 3px solid #fff;
+    border-radius: 15px;
+    background-image: linear-gradient(#b4c8d3, #546d7a);
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.3);
+    margin: 3% 0 0;
+    padding: 0;
+}
+
+.section-steps-eliminating h2 {
+    color: #334656;
+    font: normal 28px/30px MyriadProSemibold, Arial, sans-serif;
+    text-align: center;
+}
+
+.section-steps-eliminating p {
+    font: bold 14px/16px Arial;
+    color: #fff;
+    text-align: center;
+}
+
+.section-steps-eliminating .steps-container {
+    padding: 0 5px 3% 20px;
+}
+
+.section-steps-eliminating .step-block {
+    width: 20%;
+    padding: 0 13px 0 0;
+}
+
+.section-steps-eliminating .step-block:last-child {
+    padding: 0;
+    width: 19%;
+}
+
+.steps-arrow-img {
+    background: url(../img/step-arrow.png) no-repeat center top;
+    display: block;
+    width: 18px;
+    height: 17px;
+    float: right;
+    margin: -65px -14px 0 0;
+}
+
+.asa-mails-img {
+    background: url(../img/asa-mails-img.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 65%;
+}
+
+.step-arrow {
+    background: url(../img/step-arrow.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 65%;
+}
+
+.impressions-asa-img {
+    background: url(../img/impressions-asa-img.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 65%;
+}
+
+.asa-board-img {
+    background: url(../img/asa-board.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 65%;
+}
+
+.apnea-snoring-img {
+    background: url(../img/apnea-snoring.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 65%;
+}
+
+.asa-bills-img {
+    background: url(../img/asa-bills.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 65%;
+}
+/*--------/section-steps-eliminating--------*/
+/*--------section-pre-qualify--------*/
+
+.pre-qualify-arrow {
+    background: url(../img/pre-qualify-arrow.png) no-repeat left top;
+    background-size: 80%;
+    padding-top: 52%
+}
+
+.arrow-container {
+    left: -64px;
+    top: 35px;
+    position: absolute;
+}
+
+.section-pre-qualify .bg {
+    background-image: linear-gradient( to right, #fff 24%, #3c76a6 68%, #2d70a1 90%);
+    border: 3px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.3);
+    margin: 3% 0;
+    padding: 0;
+}
+
+.section-pre-qualify h2 {
+    color: #ee2428;
+    padding: 0 0 5px 10px;
+    font: 34px/36px FuturaExtraBlackItalic, Arial, sans-serif;
+}
+
+.section-pre-qualify .call-block-container {
+    position: absolute;
+}
+
+.section-pre-qualify h4 {
+    float: right;
+    font: bold 21px/26px Arial;
+    color: #ee2428;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.section-pre-qualify h2 span {
+    color: #4e76a5;
+}
+
+.section-pre-qualify p {
+    padding-left: 30px;
+    color: #000;
+    font: 20px/18px MyriadProBoldCondensedItalic, Arial, sans-serif;
+}
+
+.pre-qualify-doctor {
+    background: url(../img/pre-qualify-doctor.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 80%;
+}
+
+.section-pre-qualify .btns-wrapper {
+    margin-top: 10px;
+}
+
+.section-pre-qualify .patients-click-btn {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(#ed1c24 45%, #991b1e 80%);
+    box-shadow: 0px 0px 9px 1px rgba(34, 32, 95, 0.3);
+    color: #fff;
+    text-shadow: 0px 2px black;
+    float: left;
+    font: 18px/20px 'MyriadPro-Cond';
+    width: 190px;
+}
+
+.section-pre-qualify .patients-click-btn:hover {
+    background-image: linear-gradient(#b1080e 45%, #670608 80%);
+}
+
+.section-pre-qualify .doctors-click-btn {
+    float: left;
+    background: url(../img/btn-banner-blue.png) no-repeat left -1px;
+    width: 120px;
+    height: 26px;
+    outline: none;
+    margin-top: 6px;
+}
+
+.section-pre-qualify .doctors-click-btn:hover,
+.section-pre-qualify .doctors-click-btn:active {
+    background-position: left -27px;
+    outline: none;
+}
+
+.section-pre-qualify .dentist-click-btn {
+    float: left;
+    background: url(../img/btn-banner-blue.png) no-repeat left -53px;
+    width: 120px;
+    height: 26px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.section-pre-qualify .dentist-click-btn:hover,
+.section-pre-qualify .dentistC-click-btn:active {
+    background-position: left -79px;
+    outline: none;
+}
+/*--------/section-pre-qualify--------*/
+/*--------section-sleep-better--------*/
+
+.section-sleep-better .bg {
+    background-image: linear-gradient( to right, #fff 75%, #e7ecf0 95%);
+    border: 3px solid #f3f0f2;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.3);
+    margin: 3% 0;
+    padding: 0;
+}
+
+.sleep-better-girl {
+    background: url(../img/sleep-better-girl.png) no-repeat left top;
+    background-size: 75%;
+    padding-top: 96%;
+    border-bottom-left-radius: 15px;
+}
+
+.section-sleep-better h2 {
+    color: #7f8083;
+    padding-bottom: 10px;
+    font: normal 32px/29px MyriadPro-Regular, Arial, sans-serif;
+}
+
+.section-sleep-better h2 span {
+    color: #ae242a
+}
+
+.section-sleep-better .cause-sleep-apnea h2 {
+    color: #7f8083;
+    font: normal 25px/28px Arial;
+    padding: 0 0 0px 15px;
+    margin-top: 0;
+}
+
+.section-sleep-better .cause-sleep-apnea h2 span {
+    color: #c83f2c;
+}
+
+.section-sleep-better p {
+    font: 13px/18px Arial;
+    padding-bottom: 15px;
+    color: #151515;
+    margin: 0;
+}
+
+.section-sleep-better .cause-sleep-apnea h3 {
+    font-size: 20px;
+    color: #312e33;
+    padding: 30px 0 10px;
+    margin: 0;
+}
+
+.section-sleep-better .cause-sleep-apnea p {
+    font-size: 13px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    color: #151515;
+}
+
+.normal-breathing-img {
+    background: url(../img/normal-breathing-img.png) no-repeat left top;
+    background-size: 85%;
+    padding-top: 72%;
+}
+
+.sleep-apnea-img {
+    background: url(../img/sleep-apnea-img.png) no-repeat left top;
+    background-size: 85%;
+    padding-top: 72%;
+}
+
+.solutions {
+    /*    background-color: #75858d;*/
+    
+    margin-top: 25px;
+    background-image: linear-gradient(#5d686e 12%, #7a8c96 64%);
+    border: 3px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.3);
+    margin: 3% 0;
+    padding: 0;
+}
+
+.solutions h2 {
+    line-height: 46px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    padding-bottom: 0;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    text-shadow: #000 1px 1px 2px;
+    font-weight: bold;
+}
+
+.section-sleep-better .fda-cpap-block p {
+    color: #000;
+    font: 18px/20px Arial;
+    text-align: center;
+    padding: 0 20px 25px;
+}
+
+.section-sleep-better .fda-cpap-block {
+    box-shadow: 0 6px 11px -2px rgba(0, 0, 0, 0.2);
+    padding: 0 15px 15px;
+}
+
+.section-sleep-better .fda-cpap-block .top-section {
+    background: #f0eff6;
+    border: 1px solid #d8d8d8;
+    padding-right: 0;
+}
+
+.section-sleep-better .fda-cpap-block .top-section p {
+    font: bold 13px/17px Arial;
+    color: #333;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.section-sleep-better .fda-cpap-block p span {
+    color: #ee2428;
+}
+
+.cpap-img {
+    background: url(../img/cpap-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 69%;
+}
+
+.sleep-cpap-img {
+    background: url(../img/sleep-cpap-img.png) no-repeat right bottom;
+    background-size: 95%;
+    padding-top: 70%;
+}
+
+.oral-appliance-img {
+    background: url(../img/oral-appliance-img.png) no-repeat center top;
+    background-size: 104%;
+    padding-top: 69%;
+}
+
+.sleep-oral-img {
+    background: url(../img/sleep-oral-img.png) no-repeat right bottom;
+    background-size: 95%;
+    padding-top: 70%;
+}
+/*--------/section-sleep-better--------*/
+/*--------section-oralAppliance-cpap--------*/
+
+.section-oralAppliance-cpap h2 {
+    font: normal 25px/28px Arial;
+    color: #7f8083;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.section-oralAppliance-cpap h3 {
+    font: 19px/21px Arial;
+    color: #d73f2c;
+    margin: 0 0 10px;
+}
+
+.section-oralAppliance-cpap h3.first-h3 {
+    padding-top: 40px;
+}
+
+.section-oralAppliance-cpap ul {
+    color: #3e5364;
+    font: bold 13px/26px Arial;
+    letter-spacing: -0.4px;
+    margin: 0;
+    padding: 0 0 41px 15px;
+}
+
+.section-oralAppliance-cpap ul li {
+    line-height: 18px;
+    margin: 6px 0;
+}
+
+.section-oralAppliance-cpap h2 span {
+    color: #c83f2c;
+}
+
+.section-oralAppliance-cpap p {
+    color: #000;
+    text-align: justify;
+    line-height: 17px;
+}
+
+.oral-appliance2-img {
+    background: url(../img/oral-appliance2-img.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 54%;
+}
+
+.cpap2-img {
+    background: url(../img/cpap2-img.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 54%;
+}
+
+.section-oralAppliance-cpap .have-cpap-block .firstText-block {
+    position: absolute;
+    top: 20px;
+    z-index: 15;
+    padding: 0 20%;
+    text-align: center;
+}
+
+.section-oralAppliance-cpap .have-cpap-block .firstText-block h2 {
+    top: 20px;
+    text-align: center;
+    top: 20px;
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 15px;
+}
+
+.section-oralAppliance-cpap .have-cpap-block .firstText-block p {
+    padding: 0% 16% 0 21%;
+    font-size: 19px;
+    line-height: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+.section-oralAppliance-cpap .have-cpap-block .secondText-block {
+    position: absolute;
+    z-index: 20;
+    bottom: 0%;
+    text-align: center;
+    padding: 0 30% 0 32%;
+    height: 25%;
+    margin-bottom: 2%;
+}
+
+.section-oralAppliance-cpap .have-cpap-block .secondText-block ul {
+    margin: 0;
+    font-size: 15px;
+    line-height: 21px;
+    padding: 0 10%;
+    list-style-position: inside;
+    font-style: italic;
+    font-weight: normal;
+    color: #000;
+}
+
+.section-oralAppliance-cpap .have-cpap-block .secondText-block h3 {
+    /*    padding: 260px 0 5px 0;*/
+    
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 27px;
+    color: #ef4442;
+    font-style: italic;
+}
+
+.have-cpap-block {
+    background: url(../img/have-cpap-bg.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 72%;
+}
+/*--------/section-oralAppliance-cpap--------*/
+/*--------section-fda-cleared--------*/
+
+.section-fda-cleared-img {
+    background: url(../img/fda-cleared-bg.png) no-repeat center top;
+    background-size: 102%;
+    padding-top: 65%;
+}
+
+.section-fda-cleared .row {
+    margin: 0;
+}
+
+.section-fda-cleared .text-wrap {
+    position: absolute;
+    top: 0;
+    padding: 8% 0% 0 5%;
+    color: #fff;
+    line-height: 20px;
+    font-style: italic;
+}
+
+.section-fda-cleared .text-wrap p {
+    text-align: justify;
+}
+
+.section-fda-cleared .text-line-bg {
+    background: url(../img/text-line-bg.png) no-repeat left top;
+    padding-top: 33%;
+    margin: 5% 0 0;
+    left: 8px;
+}
+
+.section-fda-cleared .text-line-bg ul {
+    position: absolute;
+    top: 0;
+    list-style-position: inside;
+    padding: 2%;
+    line-height: 28px;
+}
+
+.autoCpap-block h2 {
+    color: #60686e;
+    padding-bottom: 20px;
+    font: bold italic 37px/44px BasicSansLightSFRegular, Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+.autoCpap-block h2 span {
+    color: #ee2428;
+}
+
+.autoCpap-block p {
+    color: #41494e;
+    line-height: 17px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.auto-cpap-img {
+    background: url(../img/auto-cpap-img.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 58%;
+    margin: 2% auto;
+    image-rendering: -moz-crisp-edges;
+}
+
+.autoCpap-block .vd-player {
+    background: #edebeb;
+    padding: 15px 15px 5px;
+    height: 135px;
+    width: 530px;
+    box-shadow: 0px 0px 3px;
+}
+
+.vd-player .player-block-wrap {
+    width: 19%;
+    float: left;
+    margin-left: 5px;
+}
+
+.vd-player .player-block-wrap:first-child {
+    margin-left: 0;
+}
+
+.vd-player .player-img-wrap {
+    background: url(../img/set8-video.gif) no-repeat left top;
+    background-size: 99%;
+    padding-top: 92%;
+}
+/*
+.autoCpap-block .vd-player ul li {
+    float: left;
+    width: 100px;
+    padding-right: 2px;
+    list-style: none;
+}
+
+.autoCpap-block .vd-player ul {
+    float: left!important;
+    padding-left: 0;
+}
+*/
+
+.autoCpap-block .vd-player p {
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 0;
+}
+/*--------/section-fda-cleared--------*/
+/*--------section-four-steps--------*/
+
+.section-four-steps h2 {
+    color: #60686e;
+    padding-bottom: 20px;
+    font: bold italic 37px/37px BasicSansLightSFRegular, Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+.section-four-steps h2 span {
+    color: #ee2428;
+}
+
+.section-four-steps .first-row p,
+.section-four-steps .second-row p,
+.adjustable-block .adjustable-oral-block p {
+    text-align: center;
+    padding: 0 2%;
+    font: italic 15px/18px Arial, Verdana, Tahoma, sans-serif;
+    color: #000;
+}
+
+.section-four-steps .second-row {
+    box-shadow: 0 6px 11px -2px rgba(0, 0, 0, 0.2);
+}
+
+.section-four-steps .second-row p {
+    padding: 22% 0% 0 1%;
+}
+
+.step1 {
+    background: url(../img/step1.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 77%;
+}
+
+.step2 {
+    background: url(../img/step2.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 77%;
+}
+
+.step3 {
+    background: url(../img/step3.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 77%;
+}
+
+.sleep-girl-img {
+    background: url(../img/sleep-girl-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 45%;
+}
+
+.adjustable-block h2 {
+    padding-top: 3%;
+}
+
+.adjustableOral-block p {
+    text-align: center;
+    padding: 0 2%;
+    font: 15px/18px Arial, Verdana, Tahoma, sans-serif;
+    color: #000;
+}
+
+.adjustable-block .number {
+    background: url(../img/number-img.png) no-repeat left top;
+    padding-left: 80px;
+    height: 80px;
+    margin-top: 9%;
+}
+
+.adjustable-block .number span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 14% 4% 3% 18%;
+}
+
+.adjustable-block p.last {
+    text-align: left;
+    padding-top: 5%;
+}
+
+.adjustable-block p.last span {
+    color: #ee2428;
+}
+
+.adjustable-block .second-row {
+    box-shadow: 0 6px 11px -2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1%;
+}
+
+.readjust-appliance1-img {
+    background: url(../img/readjust-appliance1-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 77%;
+}
+
+.readjust-appliance2-img {
+    background: url(../img/readjust-appliance2-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 77%;
+}
+
+.readjust-appliance3-img {
+    background: url(../img/readjust-appliance3-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 77%;
+}
+
+.readjust-appliance4-img {
+    background: url(../img/readjust-appliance4-img.png) no-repeat left top;
+    background-size: 110%;
+    padding-top: 67%;
+    margin-top: 20px;
+}
+/*--------/section-four-steps--------*/
+/*--------section-sleep-test--------*/
+
+.section-sleep-test h2 {
+    color: #60686e;
+    padding-bottom: 20px;
+    font: bold italic 37px/35px BasicSansLightSFRegular, Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.section-sleep-test h2 span {
+    color: #ee2428;
+}
+
+.section-sleep-test p {
+    color: #000;
+    font: bold 13px/20px Arial, Verdana, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.sleep-test-bg {
+    background: url(../img/sleep-test-bg.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 55%;
+}
+
+.sleep-test-steps {
+    width: 20%;
+    float: left;
+}
+
+.section-sleep-test .wrap-step {
+    padding: 0 10px;
+}
+
+.sleep-test1 {
+    background: url(../img/sleep-test1.png) no-repeat center top;
+    background-size: 90%;
+    padding-top: 130%;
+}
+
+.sleep-test2 {
+    background: url(../img/sleep-test2.png) no-repeat center top;
+    background-size: 90%;
+    padding-top: 130%;
+}
+
+.sleep-test3 {
+    background: url(../img/sleep-test3.png) no-repeat center top;
+    background-size: 90%;
+    padding-top: 130%;
+}
+
+.sleep-test4 {
+    background: url(../img/sleep-test4.png) no-repeat center top;
+    background-size: 90%;
+    padding-top: 130%;
+}
+
+.sleep-test5 {
+    background: url(../img/sleep-test5.png) no-repeat center top;
+    background-size: 90%;
+    padding-top: 130%;
+}
+
+.test-text {
+    border-radius: 15px;
+    height: 215px;
+    background-image: linear-gradient(to top, #f3f7f9, #b7ccd7);
+    width: 90%;
+    margin-bottom: 20px;
+    display: table;
+    margin: 0 auto;
+    padding: 20px 15px 0px;
+}
+
+.test-text p {
+    text-align: center;
+    font: bold italic 12px/18px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.test-text p span {
+    color: #cd2d28;
+}
+
+.test-text p.numbers {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    font: bold 50px/17px Arial, Verdana, Tahoma, sans-serif;
+    color: #6c8490;
+}
+
+.section-sleep-test .vd-player {
+    background: #eae3a8;
+    float: right;
+    margin: 20px 0;
+    box-shadow: -1px 4px 7px 1px rgba(0, 0, 0, 0.4);
+    height: 138px;
+    padding: 10px 15px;
+    margin-right: 100px;
+}
+
+.section-sleep-test .vd-player p {
+    font-size: 18px;
+    color: #cd2d28;
+    float: left;
+    padding: 30px 20px 0 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.section-sleep-test .vd-player a {
+    border: 3px solid #b9b15d;
+    float: right;
+    width: 171px;
+    /*    height: 112px;*/
+}
+
+.section-sleep-test .bg-shadow {
+    box-shadow: 0 6px 11px -2px rgba(0, 0, 0, 0.2);
+}
+/*--------/section-sleep-test--------*/
+/*--------section-steps-study--------*/
+
+.section-steps-study h2 {
+    text-align: center;
+    font: italic normal 37px/37px Arial, sans-serif;
+    padding-bottom: 10px;
+    color: #ee2428;
+}
+
+.section-steps-study .have-study h3,
+.section-steps-study .not-have-study h3 {
+    font-size: 19px;
+    line-height: 19px;
+    color: #232b31;
+    text-align: center;
+}
+
+.section-steps-study .have-study h3 span,
+.section-steps-study .not-have-study h3 span {
+    color: #ee2428;
+}
+
+.bgText-step {
+    width: 96px;
+    height: 37px;
+    text-align: center;
+    padding-top: 8px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #223266 23%, #2751a4 65%);
+    color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    margin: 0 0 -5px 30px;
+    font-size: 22px;
+    color: #fff;
+    font-family: FuturaBold, Arial, sans-serif;
+    text-shadow: #000 1px 1px 1px;
+    font-style: italic;
+}
+
+.section-steps-study .have-study .step-block,
+.section-steps-study .not-have-study .step-block {
+    margin-bottom: 30px;
+}
+
+.section-steps-study .have-study .step-wrapper p,
+.section-steps-study .not-have-study .step-wrapper p {
+    line-height: 18px;
+    text-align: justify;
+    margin: 0;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.section-steps-study .have-study .step-wrapper p a,
+.section-steps-study .not-have-study .step-wrapper p a {
+    color: #ee2428;
+    text-decoration: underline;
+}
+
+.step-wrapper {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a9a8a8;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #e6e2e1 0%, #fff 72%);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    display: inline-table;
+    min-height: 165px;
+    height: 165px;
+}
+
+.have-study1-img {
+    background: url(../img/have-study1-img.png) no-repeat right top;
+    background-size: 90%;
+    padding-top: 94%;
+}
+
+.have-study2-img {
+    background: url(../img/have-study2-img.png) no-repeat right top;
+    background-size: 90%;
+    padding-top: 94%;
+}
+
+.have-study3-img {
+    background: url(../img/have-study3-img.png) no-repeat right top;
+    background-size: 90%;
+    padding-top: 94%;
+}
+
+.have-study4-img {
+    background: url(../img/have-study4-img.png) no-repeat right top;
+    background-size: 90%;
+    padding-top: 94%;
+}
+
+.have-study5-img {
+    background: url(../img/have-study5-img.png) no-repeat right top;
+    background-size: 90%;
+    padding-top: 94%;
+}
+
+.not-have-study1-img {
+    background: url(../img/not-have-study1-img.png) no-repeat right top;
+    background-size: 90%;
+    padding-top: 94%;
+}
+
+.not-have-study2-img {
+    background: url(../img/not-have-study2-img.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 89%;
+}
+
+.not-have-study3-img {
+    background: url(../img/not-have-study3-img.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 89%;
+}
+
+.not-have-study4-img {
+    background: url(../img/not-have-study4-img.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 89%;
+}
+
+.not-have-study5-img {
+    background: url(../img/not-have-study5-img.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 120%;
+}
+
+.not-have-study6-img {
+    background: url(../img/not-have-study6-img.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 89%;
+}
+/*--------/section-steps-study--------*/
+/*--------section-asa-accredited--------*/
+
+.section-asa-accredited .content-wrap {
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+.section-asa-accredited h2 {
+    color: #2f316e;
+    font: italic normal 38px/42px MyriadPro-Regular, Arial, sans-serif;
+    padding: 35px 0 20px;
+}
+
+.section-asa-accredited h2 span {
+    color: #ee2428;
+}
+
+.section-asa-accredited p {
+    color: #60686e;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.section-asa-accredited p.sub-title {
+    padding-top: 8%;
+    color: #020303;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 18px;
+    font-size: 17px;
+}
+
+.section-asa-accredited ul {
+    color: #282557;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 20px 60px 0 20px;
+    font-style: italic;
+}
+
+.section-asa-accredited ul li {
+    list-style-image: url(../img/icon-ul.png);
+    padding-bottom: 10px;
+}
+
+.accredited-img {
+    background: url(../img/accredited-img.png) no-repeat right top;
+    background-size: 100%;
+    padding-top: 80%;
+    margin-top: 20px;
+}
+
+.section-asa-accredited .asa-accredited-btn {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(#991b1e 50%, #ed1c24 85%);
+    box-shadow: 0px 0px 10px 1px rgba(35, 31, 32, 0.3);
+    color: #fff;
+    width: 330px;
+    height: auto;
+    font: 18px/20px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.section-asa-accredited .asa-accredited-btn:hover {
+    background-image: linear-gradient(#7c1518 50%, #b71e24 85%);
+}
+/*--------/section-asa-accredited--------*/
+/*--------fda-cleared-block--------*/
+
+.fda-cleared-block .content-wrap {
+    box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /*    padding-bottom: 3%;*/
+}
+
+.fda-cleared-block h2 {
+    font: bold 75px/48px BasicSansLightSFRegular, Arial, sans-serif;
+    color: #2b2e71;
+    padding: 3% 0;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
+.fda-cleared-block h2 span {
+    font: bold 50px/47px BasicSansLightSFRegular, Arial, sans-serif;
+    color: #ed1f24;
+    display: block;
+    padding-top: 1%;
+    text-transform: uppercase;
+}
+
+.fda-cleared-block h3 {
+    font-size: 32px;
+    line-height: 32px;
+    color: #2f316e;
+    font-family: MyriadPro-Regular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.fda-cleared-block h3 span {
+    color: #ee2428;
+}
+
+.fda-cleared-block p.sub-title {
+    font-weight: bold;
+    color: #020303;
+    font-size: 17px;
+    line-height: 22px;
+    font-style: italic;
+}
+
+.fda-cleared-block ul {
+    color: #282557;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px 60px 0 20px;
+    font-style: italic;
+}
+
+.fda-cleared-block ul li {
+    list-style-image: url(../img/icon-ul.png);
+    padding-bottom: 10px;
+}
+
+.fda-cleared-block p.link {
+    font-size: 19px;
+    color: #ee2428;
+    font-weight: normal;
+    padding: 10px 5px 15px;
+    font-style: italic;
+}
+
+.fda-cleared-block p.link a {
+    text-decoration: underline;
+    color: #ee2428;
+}
+/*--------/fda-cleared-block--------*/
+/*--------us-department-block--------*/
+
+.us-department-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.us-department-block h2 span {
+    color: #ee2428;
+}
+
+.us-department-block p.sub-title {
+    font: italic bold 17px/22px Arial, Verdana, Tahoma, sans-serif;
+    color: #020303;
+    /*
+    font-size: 17px;
+    line-height: 22px;
+    font-style: italic;
+*/
+}
+
+.us-department-block ol {
+    color: #282557;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 20px 0 20px 15px;
+    font-style: italic;
+    list-style-position: inside;
+}
+
+.us-department-block ol li {
+    padding-bottom: 10px;
+}
+
+.us-department-block ol a {
+    color: #ee2428;
+    text-decoration: underline;
+}
+
+.us-department-img {
+    background: url(../img/us-department-img.png) no-repeat left top;
+    background-size: 98%;
+    padding-top: 100%;
+}
+
+.us-department-block p {
+    font: 500 38px/48px serif;
+    color: #333;
+    margin-top: 15px;
+}
+/*--------/us-department-block--------*/
+/*--------cdc-block--------*/
+
+.cdc-block .content-wrap {
+    border: 1px solid #c9c9c9;
+    background-image: linear-gradient(to bottom right, #d8d9da 0%, #ffffff 40%);
+}
+
+.cdc-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding-bottom: 10px;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+.cdc-block h2 span {
+    color: #ee2428;
+    display: block;
+}
+
+.cdc-block p.sub-title {
+    font: italic bold 17px/22px Arial, Verdana, Tahoma, sans-serif;
+    color: #020303;
+}
+
+.cdc-logo-img {
+    background: url(../img/cdc-logo-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 75%;
+    margin-top: 12%;
+}
+
+.cdc-block ul {
+    color: #282557;
+    font-size: 15px;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.cdc-block ul li {
+    padding-bottom: 10px;
+    list-style-image: url(../img/icon-ul.png);
+}
+
+.cdc-block .girl-img-wrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cdc-block .wrap-btn {
+    position: absolute;
+    bottom: 20px;
+}
+
+.cdc-block .cdc-btn {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background-image: linear-gradient(#991b1e 45%, #ed1c24 85%);
+    box-shadow: 0px 0px 10px 1px rgba(35, 31, 32, 0.3);
+    color: #fff;
+    width: 270px;
+    height: auto;
+    font: 18px/20px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.cdc-block .cdc-btn:hover {
+    background-image: linear-gradient(#7c1518 50%, #b71e24 85%);
+}
+
+.cdc-girl-img {
+    background: url(../img/cdc-girl-img.png) no-repeat right top;
+    background-size: 100%;
+    padding-top: 170%;
+}
+/*--------/cdc-block--------*/
+/*--------dr-oz-block--------*/
+
+.dr-oz-block .content-wrap {
+    border: 1px solid #c9c9c9;
+    background-image: linear-gradient(to bottom right, #d8d9da 0%, #ffffff 30%);
+    margin-bottom: 3%;
+}
+
+.dr-oz-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding-bottom: 10px;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dr-oz-block h2 span {
+    color: #ee2428;
+}
+
+.dr-oz-block p.sub-title {
+    font-weight: bold;
+    color: #020303;
+    font-size: 17px;
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+
+.dr-oz-block p {
+    line-height: 18px;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+.dr-oz-block .img-wrap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.dr-oz-img {
+    background: url(../img/dr-oz-img.png) no-repeat right bottom;
+    background-size: 100%;
+    padding-top: 203%;
+}
+/*--------/dr-oz-block--------*/
+/*--------fox-news-block--------*/
+
+.fox-news-block .content-wrap {
+    border: 1px solid #c9c9c9;
+    background-image: linear-gradient(to bottom right, #d8d9da 0%, #ffffff 30%);
+    padding-top: 20px;
+    margin-bottom: 3%;
+}
+
+.fox-news-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding-bottom: 10px;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+.fox-news-block h2 span {
+    color: #ee2428;
+}
+
+.fox-news-img {
+    background: url(../img/fox-news-img.png) no-repeat right top;
+    background-size: 85%;
+    padding-top: 50%;
+}
+
+.fox-news-block p.sub-title {
+    font-weight: bold;
+    color: #020303;
+    font-size: 17px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.fox-news-block p {
+    padding-bottom: 20px;
+    line-height: 18px;
+    font: 13px/15px Arial, Verdana, Tahoma, sans-serif;
+    font-style: italic;
+}
+/*--------/fox-news-block--------*/
+/*--------mayo-clinic-block--------*/
+
+.mayo-clinic-block .content-wrap {
+    border: 1px solid #c9c9c9;
+    background-image: linear-gradient(to bottom right, #d8d9da 0%, #ffffff 30%);
+    padding-top: 20px;
+    margin-bottom: 3%;
+}
+
+.mayo-clinic-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding-bottom: 10px;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+.mayo-clinic-block h2 span {
+    color: #ee2428;
+}
+
+.mayo-clinic-img {
+    background: url(../img/mayo-clinic-img.png) no-repeat right top;
+    background-size: 95%;
+    padding-top: 44%;
+    margin-bottom: 15px;
+}
+
+.mayo-clinic-block p {
+    padding-bottom: 20px;
+    line-height: 18px;
+    font: 13px/15px Arial, Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.mayo-clinic-block h3 {
+    font-size: 19px;
+    color: #ee2428;
+    padding-bottom: 10px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.mayo-clinic-block ul {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 0 5px 20px;
+    color: #282557;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.mayo-clinic-block ul li {
+    list-style-image: url(../img/icon-ul.png);
+    padding-bottom: 10px;
+}
+
+.mayo-clinic-block ul li span {
+    font-size: 15px;
+    font-weight: 800;
+}
+/*--------/mayo-clinic-block--------*/
+/*--------MSNBC-block--------*/
+
+.MSNBC-block .content-wrap {
+    border: 1px solid #c9c9c9;
+    background-image: linear-gradient(to right, #d8d9da 0%, #ffffff 50%);
+    padding-top: 20px;
+    /*    margin-bottom: 3%;*/
+}
+
+.MSNBC-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding-bottom: 10px;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+.MSNBC-block h2 span {
+    color: #ee2428;
+}
+
+.MSNBC-block h3 {
+    font-size: 19px;
+    color: #ee2428;
+    padding-bottom: 10px;
+    font-style: italic;
+    padding-bottom: 0;
+    margin: 10px 0 3px;
+}
+
+.MSNBC-img {
+    background: url(../img/MSNBC-img.png) no-repeat right top;
+    background-size: 87%;
+    padding-top: 59%;
+}
+
+.MSNBC-block p {
+    padding-bottom: 20px;
+    line-height: 18px;
+    font: 13px/15px Arial, Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+}
+/*--------/MSNBC-block--------*/
+/*--------faq-block--------*/
+
+.faq-block h2 {
+    font-size: 42px;
+    line-height: 42px;
+    color: #2f316e;
+    padding: 6px 20px;
+    font-family: BasicSansLightSFRegular, Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0 0 3%;
+    background: #efefef;
+    border: 1px solid #dddcdb;
+    border-radius: 12px;
+}
+
+.faq-block h2 span {
+    color: #ee2428;
+}
+
+.faq-block h4 {
+    color: #d8752c;
+    padding-bottom: 15px;
+    font: italic bold 13px/15px Arial, Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.faq-block p {
+    padding-bottom: 20px;
+    line-height: 18px;
+    font: 13px/15px Arial, Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.faq-block .bgText-step {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: #2d70a1;
+    box-shadow: 0px 0px 5px 1px rgba(35, 31, 32, 0.3);
+    width: 180px;
+    height: 55px;
+    font: italic bold 25px/28px BasicSansLightSFRegular, Arial, sans-serif;
+    margin-bottom: -16px;
+    float: right;
+}
+
+.faq-block .customer-wrap {
+    background: #5d686e;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 5px 1px rgba(35, 31, 32, 0.3);
+    border-top-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+
+.faq-block .testimonials-wrap {
+    padding: 20px 0 0;
+}
+
+.faq-block .testimonials-wrap .quote {
+    color: #f4eb3f;
+    font: italic bold 15px/18px Arial, Verdana, Tahoma, sans-serif;
+    padding: 30px 0;
+}
+
+.faq-block .testimonials-wrap h5 {
+    padding-bottom: 10px;
+    margin: 0;
+    color: #fff;
+    font: italic bold 15px/18px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.faq-block .testimonials-wrap p {
+    padding-bottom: 10px;
+    margin: 0;
+    color: #fff;
+    font: italic 13px/15px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.faq-block .testimonials-wrap p.signature {
+    border-bottom: 1px dashed #fff;
+}
+
+.faq-block .testimonials-wrap p.signature strong {
+    padding-bottom: 10px;
+    margin: 0;
+    color: #f4eb3f;
+    font: italic bold 15px/18px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.faq-block .testimonials-wrap p.signature span {
+    padding-bottom: 10px;
+    margin: 0;
+    color: #f4eb3f;
+    font: italic 13px/15px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.testimonials1-img {
+    background: url(../img/testimonials1-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 100%;
+}
+
+.testimonials2-img {
+    background: url(../img/testimonials2-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 100%;
+}
+
+.testimonials3-img {
+    background: url(../img/testimonials3-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 100%;
+}
+
+.testimonials4-img {
+    background: url(../img/testimonials4-img.png) no-repeat left top;
+    background-size: 100%;
+    padding-top: 100%;
+}
+/*--------/faq-block--------*/
+/*--------footer--------*/
+
+footer {
+    height: 60px;
+}
+
+.footer-menu .container {
+    background: none;
+}
+
+.footer-menu ul {
+    text-align: center;
+    color: #fff;
+    font: italic bold 15px/18px Arial, Verdana, Tahoma, sans-serif;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footer-menu ul li {
+    padding: 0 5px;
+}
+
+.footer-menu ul li a {
+    text-align: center;
+    color: #fff;
+    font: italic bold 15px/18px Arial, Verdana, Tahoma, sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+.footer-menu ul li {
+    display: inline;
+}
+/*--------/footer--------*/
+/*--------verification--------*/
+
+.verification {
+    margin-top: 20px;
+}
+
+.verification .container.wrap {
+    border: 6px solid #5f96ef;
+    border-radius: 20px;
+}
+/*
+.verification .navbar {
+    background: url(../img/nav-bg-img.png) no-repeat center top;
+    background-size: 101% 84%;
+    padding-top: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.verification .header-logo img {
+    margin: -15px 0 0 -20px;
+}
+
+.verification .login-btn-container {
+    position: absolute;
+    right: 0px;
+    top: -64px;
+}
+
+.verification .login-btn {
+    margin: 0;
+}
+
+.verification .header-logo {
+    position: absolute;
+    top: -75px;
+}
+
+.verification p.call {
+    font: 17px/25px MyriadProBold, Arial, sans-serif;
+    color: #ec4900;
+    float: right;
+    margin: -30px 0 0 10px;
+}
+*/
+/*--------section-form-steps--------*/
+
+.verification .section-form-steps h2 {
+    font: 18px/20px Arial, Verdana, Tahoma, sans-serif;
+    color: #fd001b;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.verification .section-form-steps p {
+    font-size: 15px;
+    line-height: 17px;
+    text-align: justify;
+    padding: 0;
+    margin: 15px;
+}
+
+.verification .steps-wrapper-block {
+    padding: 0px 63px 20px 90px;
+}
+
+.verification .steps-wrapper-block .text-wrapper {
+    border: 1px solid #959799;
+    box-shadow: inset rgba(0, 0, 0, .3) 0 0px 15px, inset rgba(252, 255, 255, .3) 0 0px 15px, rgba(0, 0, 0, .3) 0 3px 7px -3px;
+    padding: 39px 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e8e8e8 28%, #fff 62%);
+}
+
+.verification .steps-wrapper-block .text-wrapper.last {
+    padding: 27px 20px;
+}
+
+.verification .steps-wrapper-block .step-img-container {
+    position: absolute;
+    z-index: 9;
+    left: 45px;
+    top: 19px;
+    padding: 0;
+    height: 97px;
+    width: 78px;
+}
+
+.verification .steps-wrapper-block .step-img1 {
+    background: url(../img/step1-img-order.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 124%;
+}
+
+.verification .steps-wrapper-block .step-img2 {
+    background: url(../img/step2-img-order.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 124%;
+}
+
+.verification .steps-wrapper-block .step-img3 {
+    background: url(../img/step3-img-order.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 124%;
+}
+
+.verification .steps-wrapper-block .text-wrapper p {
+    font: 18px/24px Arial, Verdana, Tahoma, sans-serif;
+    padding-left: 40px;
+}
+
+.verification .steps-wrapper-block .text-wrapper p span {
+    color: #fe0000;
+}
+/*--------/section-form-steps--------*/
+/*--------section-verify--------*/
+
+.verification .section-verify h2 {
+    font: 18px/20px Arial, Verdana, Tahoma, sans-serif;
+    color: #fd001b;
+    /*    padding-bottom: 10px;*/
+}
+
+.verification .section-verify .verification-form {
+    border: 1px solid #fff;
+    padding: 20px 15px 30px;
+    background-image: linear-gradient(to top, #ededed 0%, #fff 100%);
+    box-shadow: rgba(0, 0, 0, .3) 0 0px 4px, rgba(252, 255, 255, .3) 0 0px 4px, rgba(0, 0, 0, .2) 0 1px 4px;
+    border-radius: 20px;
+}
+
+.verification .section-verify .verification-form label {
+    color: #0f2e68;
+    font: normal 15px/20px Arial, Verdana, Tahoma, sans-serif;
+    margin-bottom: 0;
+}
+
+.verification .section-verify .verification-form label span {
+    color: #ff0000;
+    padding-left: 5px;
+}
+
+.verification .section-verify .verification-form .form-group {
+    margin-bottom: 10px;
+}
+
+.verification .section-verify .verification-form .for-input label {
+    color: #2e2e2e;
+    padding-right: 8px;
+}
+
+.verification .section-verify .verification-form .for-input .form-group {
+    margin-bottom: 5px;
+}
+
+.verification .dropdown-block p {
+    font: 15px/17px Arial, Verdana, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.verification .cf-chance {
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, .4);
+    background: #fff;
+    padding: 10px;
+    width: 28%;
+    margin-bottom: 10px;
+}
+
+.verification .dropdown-block .cf-chance p {
+    font: 14px/17px Arial, Verdana, Tahoma, sans-serif;
+    color: #0f2e68;
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.verification .dropdown-block .cf-chance-title {
+    color: #0f2e68;
+    text-align: center;
+}
+
+.verification .dozing-block {
+    padding: 0 50px;
+}
+
+.verification .dozing-block .dozing-title {
+    background: #005191;
+    color: #fff;
+    border: 1px solid #cfcfcf !important;
+    padding: 0;
+}
+
+.verification .dropdown-block .dozing-block .dozing-title p {
+    font: bold 15px/28px Arial, Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.verification .dozing-block .group {
+    background: #dbe4fd;
+    font-weight: bold;
+    border: 1px solid #cfcfcf;
+    color: #0b234f;
+    border-width: 0 1px 1px 1px;
+    height: 36px;
+    padding: 5px 40px 5px 5px;
+}
+
+.verification .dozing-block .group label {
+    padding: 5px 0;
+    color: #0f2e68;
+    font-size: 13px;
+    font-weight: 600;
+}
+/*      select      */
+
+.selectbox {
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100px;
+    float: right;
+    background: #fff;
+}
+
+.selectbox .select {
+    width: 100%;
+    height: 25px;
+    padding: 4px 45px 0 4px;
+    font-size: 14px;
+    color: #333;
+    text-shadow: 1px 1px #FFF;
+    border: 1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    border-radius: 0;
+    box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
+    font: normal 13px/15px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.selectbox .select:active {
+    background: #f5f5f5;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.selectbox.focused .select {
+    border: 1px solid #5794BF;
+}
+
+.selectbox .select .text {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.selectbox .trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 23px;
+    border-left: 1px solid #CCC;
+    background-color: #777777;
+}
+
+.selectbox .trigger .arrow {
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0.8;
+    filter: alpha(opacity=30);
+}
+
+.selectbox:hover .arrow {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.selectbox .dropdown {
+    top: 26px;
+    width: 100%;
+    margin: 0;
+    padding: 4px 0;
+    background: #FFF;
+    border: 1px solid #C6CBD0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    font: normal 13px/15px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.selectbox .dropdown ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.selectbox li {
+    padding: 5px;
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+/*
+.selectbox li.selected {
+    color: #777777;
+}
+*/
+
+.selectbox li:hover {
+    background: #005191;
+    color: #FFF;
+}
+
+.selectbox li.disabled {
+    color: #AAA;
+}
+
+.selectbox li.disabled:hover {
+    background: none;
+}
+/*      /select      */
+
+.verification .btn-order {
+    display: block;
+    background: url(../img/order-btn-img.png) no-repeat;
+    height: 46px;
+    width: 193px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+    margin: 24px auto;
+    text-decoration: none;
+    border: none!important;
+    outline: none;
+}
+
+.verification .btn-order:hover,
+.verification .btn-order:active,
+.verification .btn-order:focus {
+    background-position: left bottom;
+    color: #fff;
+    border: none!important;
+    outline: none;
+}
+/*--------/section-verify--------*/
+/*--------/verification--------*/
+/*--------order--------*/
+
+.order {
+    padding-top: 20px;
+    margin-bottom: -60px;
+}
+
+.order .container.wrap {
+    border: 6px solid #5f96ef;
+    border-radius: 20px;
+}
+/*
+.order .navbar {
+    background: url(../img/nav-bg-img.png) no-repeat center top;
+    background-size: 101% 84%;
+    padding-top: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order .header-logo img {
+    margin: -15px 0 0 -20px;
+}
+
+.order .login-btn-container {
+    position: absolute;
+    right: 0px;
+    top: -64px;
+}
+
+.order .login-btn {
+    margin: 0;
+}
+
+.order .header-logo {
+    position: absolute;
+    top: -75px;
+}
+
+.order p.call {
+    font: 17px/25px MyriadProBold, Arial, sans-serif;
+    color: #ec4900;
+    float: right;
+    margin: -30px 0 0 10px;
+}
+*/
+
+.section-order-form {
+    padding: 0 40px;
+}
+
+.order h2 {
+    font: 24px/26px Arial, Verdana, Tahoma, sans-serif;
+    color: #fd001b;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.order .form-wrapper-block {
+    background: #f3f3f3;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin: 10px 0 30px;
+    padding: 0;
+}
+
+.order .form-wrapper-block .container-title-img {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
+
+.order .form-wrapper-block .arrow-block {
+    position: absolute;
+    top: 16px;
+    left: 50px;
+}
+
+.order .form-wrapper-block .arrow-block span {
+    font: 18px/25px Arial, Verdana, Tahoma, sans-serif;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.order .form-wrapper-block .title-img {
+    background: url(../img/order-title.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 6%;
+}
+
+.order .form-wrapper-block .title-arrow-img {
+    background: url(../img/title-arrow.png) no-repeat left top;
+    height: 24px;
+    width: 24px;
+    float: left;
+}
+
+.order .form-wrapper-block .content {
+    margin-top: 76px;
+    padding: 0 40px 0 10px;
+}
+
+.order .form-wrapper-block .content p{
+    padding: 0 15px;
+}
+
+.order form label {
+    font: 12px/14px Arial, Verdana, Tahoma, sans-serif;
+    color: #323232;
+    float: left;
+}
+
+.order form label span {
+    color: #ff0000;
+    padding-left: 3px;
+}
+
+.order form .form-control {
+    float: right;
+    width: 70%;
+    height: 24px;
+    border: 1px solid #c3c3c3;
+    font: 12px/22px Arial, Verdana, Tahoma, sans-serif;
+}
+
+.order form .selectbox {
+    width: 70%;
+    border-radius: 4px;
+    height: 24px;
+}
+
+.order form .selectbox .select {
+    border-radius: 4px;
+    box-shadow: none;
+    border-bottom-color: transparent;
+    height: 24px;
+}
+
+.order form .selectbox .trigger {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.order form .birth-inputs {
+    width: 70%;
+    float: right;
+}
+
+.order form .birth-inputs .selectbox {
+    width: 50%;
+    float: left;
+}
+
+.order form .birth-inputs input {
+    width: 25%;
+    float: left;
+}
+
+.order form .for-input input {
+    float: left
+}
+
+.order form .for-input label {
+    margin: 4px 0 0;
+    padding-left: 5px;
+}
+
+.order form .for-input .first {
+    float: left;
+    padding: 0px 25px 0 40%;
+}
+
+.order form .last-group {
+    margin: 0;
+}
+/*--------/order--------*/
+/*--------contact--------*/
+
+.contact {
+    padding-top: 20px;
+    margin-bottom: -33px;
+}
+
+.contact .container.wrap {
+    border: 6px solid #5f96ef;
+    border-radius: 20px;
+}
+/*--------/contact--------*/
+/*--------shipping--------*/
+
+.shipping,
+.contact {
+    padding-top: 20px;
+    margin-bottom: -60px;
+}
+
+.shipping .container.wrap {
+    border: 6px solid #5f96ef;
+    border-radius: 20px;
+}
+/*--------/shipping--------*/
+/*--------privacy--------*/
+
+.privacy {
+    padding-top: 20px;
+    margin-bottom: -33px;
+}
+
+.privacy .container.wrap {
+    border: 6px solid #5f96ef;
+    border-radius: 20px;
+}
+/*--------/privacy--------*/
+/*--------terms--------*/
+
+.terms {
+    padding-top: 20px;
+    margin-bottom: -33px;
+    color: #000;
+}
+
+.terms .container.wrap {
+    border: 6px solid #5f96ef;
+    border-radius: 20px;
+}
+
+.terms h2 {
+    text-align: center;
+    color: #0d70a7;
+    padding: 20px 10px;
+    margin: 0;
+    font: bold 24px/26px BasicSansLightSFRegular, Arial, sans-serif;
+}
+
+.terms h3,
+.contact h3,
+.privacy h3,
+.shipping h3 {
+    padding: 0 10px 10px;
+    color: #0D70A7;
+    font: bold 17px/15px Arial, Verdana, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.terms p,
+.terms h4,
+.contact p,
+.privacy p,
+.shipping p {
+    text-align: justify;
+    padding: 0 10px;
+    font: 15px/17px Arial, Verdana, Tahoma, sans-serif;
+    color: #000;
+}
+
+.terms h4 {
+    text-decoration: underline;
+    margin: 0;
+}
+
+.terms ul li,
+.privacy ul li,
+.privacy ol li {
+    padding-bottom: 5px;
+    font: 15px/17px Arial, Verdana, Tahoma, sans-serif;
+    color: #000;
+}
+
+.terms a,
+.privacy a,
+.shipping a {
+    color: #0000ff;
+    text-decoration: none;
+    word-wrap: break-word;
+    display: block;
+}
+
+.terms a:hover,
+.privacy a:hover,
+.shipping a:hover {
+    color: #5180ce;
+}
+/*--------/terms--------*/
+/*--------medias--------*/
+
+.text-wrap.sm .text-line-bg {
+    display: none;
+}
+
+.section-oralAppliance-cpap .xs .firstText-block {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .section-sertified-doctors .free-shipping-block {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .container.wrap {
+        width: auto;
+    }
+    .main {
+        padding: 0 30px;
+    }
+    .pre-qualify-doctor {
+        padding-top: 90%;
+    }
+    .section-sleep-better .fda-cpap-block .top-section {
+        padding-right: 15px;
+        min-height: 380px;
+    }
+    .section-sleep-better .fda-cpap-block .top-section .cpap-wrap,
+    .section-sleep-better .fda-cpap-block .top-section .oral-appliance-wrap {
+        padding: 0 15px;
+    }
+    .cpap-img {
+        background: url(../img/cpap-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 69%;
+    }
+    .section-oralAppliance-cpap .have-cpap-block .secondText-block {
+        padding: 0 20% 0 21%;
+        height: 25%;
+    }
+    .section-fda-cleared .text-line-bg {
+        padding-top: 43%;
+        margin: 3% 0 0;
+        background-size: 55%;
+    }
+    .have-cpap-block {
+        background-size: 135%;
+        padding-top: 98%;
+    }
+    .testimonials1-img {
+        background: url(../img/testimonials1-img.png) no-repeat center center;
+        background-size: 100%;
+        padding-top: 100%;
+    }
+    .faq-block .testimonials-wrap .img-wrap {
+        padding-left: 15px;
+    }
+    .promo-block {
+        padding: 89px 70px 50px;
+    }
+    .section-sertified-doctors p.slogan {
+        width: auto;
+    }
+    .section-sertified-doctors .promo-container .bg-promo {
+        padding-top: 128%;
+    }
+    .section-sertified-doctors .bg {
+        padding: 54% 0 0 0;
+    }
+    .promo-area h3 {
+        font-size: 22px;
+    }
+    .promo-block {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 68px 35px 0;
+        background-size: 100%;
+        width: 491px;
+        height: 151px;
+        margin-left: -26px;
+    }
+    .section-pre-qualify .call-block-container {
+        position: inherit;
+    }
+    .section-pre-qualify h4 {
+        float: inherit;
+        margin-top: 0;
+        padding-left: 10px;
+    }
+    .arrow-container {
+        left: -49px;
+        top: 20px;
+    }
+    .pre-qualify-arrow {
+        background-size: inherit;
+        height: 126px;
+        width: 182px;
+        padding-top: 0;
+    }
+    .section-pre-qualify h2 {
+        margin-bottom: 0;
+    }
+    .section-pre-qualify .btns-wrapper {
+        margin-bottom: 20px;
+    }
+    .cdc-block .cdc-btn {
+        width: 100%;
+        height: 50px;
+    }
+    .section-pre-qualify .patients-click-btn,
+    .section-pre-qualify .doctors-click-btn {
+        margin-right: 20px;
+    }
+    .section-fda-cleared .text-wrap.sm {
+        position: inherit;
+        background: #5d9bd3;
+        padding: 8% 3% 2%;
+        margin-bottom: -5px;
+    }
+    .section-fda-cleared-img {
+        background: url(../img/fda-cleared-bg.png) no-repeat center bottom;
+        background-size: 139%;
+        padding-top: 43%;
+        padding-bottom: 37%;
+        margin-bottom: -6%;
+    }
+    .section-fda-cleared .text-wrap {
+        padding: 0 0 0 5%;
+    }
+    .step-wrapper {
+        height: 190px;
+        min-height: 225px;
+    }
+    .verification .cf-chance {
+        width: 50%;
+    }
+    .verification .dozing-block {
+        padding: 0;
+    }
+    .navbar2 .navbar {
+        background: none;
+        padding: 0;
+        margin: 0;
+    }
+    .navbar2 .header-logo {
+        position: inherit;
+        top: 0;
+    }
+    .navbar2 .login-btn-container {
+        position: inherit;
+        top: -1px;
+        right: 15px;
+    }
+    .navbar2 .header-logo img {
+        margin: 0;
+    }
+    .navbar2 p.call {
+        margin: 0;
+        padding: 15px 15px 0;
+    }
+    .order .form-wrapper-block .title-img {
+        display: none;
+    }
+    .order .form-wrapper-block .container-title-img {
+        position: inherit;
+        top: 0;
+        left: 0;
+        background: #4a4a4a;
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .order .form-wrapper-block .arrow-block {
+        position: inherit;
+        left: 0;
+        top: 0;
+    }
+    .order .form-wrapper-block {
+        padding: 0;
+    }
+    .order .form-wrapper-block .content {
+        margin-top: 10px;
+    }
+    .section-contact-info,
+    .section-privacy-info {
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-sertified-doctors .promo-container .bg-promo {
+        padding-top: 170%;
+    }
+}
+
+@media (max-width: 767px) {
+    /*--------font styles--------*/
+    
+    .login-btn {
+        font-size: 20px;
+        padding: 5px 22px;
+    }
+    .section-sertified-doctors p.slogan {
+        padding-top: 0;
+        text-align: center;
+        font: 34px/42px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    }
+    .promo-block {
+        font: 28px/34px MyriadProBold, Arial, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p span {
+        font: 48px/66px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p {
+        font: 28px/34px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p.call {
+        font: 28px/34px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p.call span {
+        font-size: 30px;
+    }
+    .promo-area h3 {
+        font: normal 36px/40px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+        height: auto;
+        padding: 6% 0 3%;
+    }
+    .promo-area p {
+        font: bold 24px/32px Arial;
+    }
+    .section-steps-eliminating h2 {
+        font: normal 36px/40px MyriadProSemibold, Arial, sans-serif;
+    }
+    .section-steps-eliminating p,
+    .section-sleep-test p {
+        font: bold 24px/32px Arial;
+    }
+    .section-pre-qualify h2 {
+        font: 46px/50px FuturaExtraBlackItalic, Arial, sans-serif;
+        padding-left: 0;
+    }
+    .section-pre-qualify h4 {
+        font: bold 26px/32px Arial;
+        padding-left: 0;
+    }
+    .section-pre-qualify p {
+        font: 24px/32px MyriadProBoldCondensedItalic, Arial, sans-serif;
+        padding-left: 0;
+    }
+    .section-sleep-better h2 {
+        font: normal 36px/40px MyriadPro-Regular, Arial, sans-serif;
+        padding: 10px 15px;
+    }
+    .section-sleep-better p,
+    .section-sleep-better .cause-sleep-apnea p {
+        font: 22px/32px Arial;
+    }
+    .section-sleep-better .cause-sleep-apnea h2 {
+        font: 36px/40px Arial;
+    }
+    .section-sleep-better .cause-sleep-apnea h3 {
+        font: 30px/38px Arial;
+    }
+    .section-sleep-better .fda-cpap-block p {
+        font: 27px/37px Arial;
+    }
+    .section-sleep-better .fda-cpap-block .top-section p {
+        font: 22px/32px Arial;
+    }
+    .section-oralAppliance-cpap h2 {
+        font: normal 36px/40px Arial;
+    }
+    .section-oralAppliance-cpap p {
+        font: 22px/32px Arial;
+    }
+    .section-oralAppliance-cpap h3 {
+        font: 30px/38px Arial;
+    }
+    .section-oralAppliance-cpap ul {
+        font: bold 20px/30px Arial;
+    }
+    .section-oralAppliance-cpap ul li {
+        line-height: 22px;
+        margin: 15px 0;
+    }
+    .autoCpap-block h2,
+    .section-four-steps h2,
+    .section-sleep-test h2 {
+        font: bold italic 42px/48px BasicSansLightSFRegular, Arial, sans-serif;
+    }
+    .autoCpap-block p,
+    .section-four-steps p,
+    .section-four-steps .first-row p,
+    .section-four-steps .second-row p,
+    .adjustable-block .adjustable-oral-block p {
+        font: italic normal 24px/32px Arial;
+    }
+    .test-text p {
+        font: bold italic 24px/32px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .section-steps-study h2 {
+        font: italic 42px/48px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .section-asa-accredited h2 {
+        color: #2f316e;
+        font: italic normal 42px/48px MyriadPro-Regular, Arial, sans-serif;
+        padding: 0px 0 10px;
+    }
+    .section-asa-accredited p {
+        font: normal 24px/32px Arial;
+    }
+    .section-asa-accredited p.sub-title {
+        font: bold 28px/32px Arial;
+    }
+    .section-asa-accredited ul {
+        font: bold 20px/30px Arial;
+    }
+    .section-asa-accredited ul li {
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+    .section-asa-accredited .asa-accredited-btn {
+        height: 50px;
+        width: 100%;
+    }
+    .fda-cleared-block h3 {
+        font: italic normal 42px/48px MyriadPro-Regular, Arial, sans-serif;
+    }
+    .fda-cleared-block p.sub-title {
+        font: bold 28px/32px Arial;
+    }
+    .fda-cleared-block ul {
+        font: bold 20px/30px Arial;
+    }
+    .fda-cleared-block ul li {
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+    .fda-cleared-block p.link {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .us-department-block p.sub-title {
+        font: bold 28px/32px Arial;
+    }
+    .us-department-block ol {
+        padding: 10px 15px 20px 20px;
+        font: italic bold 20px/30px Arial;
+    }
+    .cdc-block p.sub-title {
+        font: bold 28px/32px Arial;
+    }
+    .cdc-block ul {
+        font: italic bold 20px/30px Arial;
+        padding: 40px 10px 20px 0;
+    }
+    .cdc-block ul li {
+        list-style-position: inside;
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+    .dr-oz-block p.sub-title {
+        font: italic bold 28px/32px Arial;
+    }
+    .dr-oz-block p {
+        font: 24px/32px Arial;
+    }
+    .fox-news-block p.sub-title {
+        font: italic bold 28px/32px Arial;
+    }
+    .fox-news-block p,
+    .mayo-clinic-block p {
+        font: italic 24px/32px Arial;
+    }
+    .mayo-clinic-block ul {
+        font: italic bold 20px/30px Arial;
+    }
+    .mayo-clinic-block ul li {
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+    .mayo-clinic-block h3 {
+        font: italic 30px/40px Arial;
+        padding-bottom: 0;
+    }
+    .mayo-clinic-block ul li span {
+        font-size: 120%;
+    }
+    .MSNBC-block h3 {
+        font: italic 30px/40px Arial;
+    }
+    .MSNBC-block p {
+        font: italic 24px/32px Arial;
+    }
+    .faq-block h4 {
+        font: italic bold 30px/46px Arial, Verdana, Tahoma, sans-serif;
+        padding-bottom: 0;
+    }
+    .faq-block p {
+        font: italic 24px/32px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap .quote {
+        font: italic bold 26px/40px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap h5 {
+        font: italic bold 26px/36px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap p {
+        font: italic 24px/32px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap p.signature strong {
+        padding-bottom: 0px;
+        font: italic bold 28px/40px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap p.signature span {
+        padding-bottom: 0;
+        font: italic 22px/36px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .terms p,
+    .terms h4,
+    .contact p,
+    .privacy p,
+    .shipping p {
+        text-align: left;
+    }
+    /*--------/font styles--------*/
+    
+    .autoCpap-block .vd-player {
+        width: 100%;
+        height: auto;
+    }
+    .section-sertified-doctors .first-block {
+        padding: 0 15px;
+    }
+    .main {
+        padding: 0;
+    }
+    .promo-area .content-wrap {
+        position: inherit;
+        top: 0;
+    }
+    .section-sertified-doctors .promo-container .bg-promo {
+        padding-top: 5%;
+    }
+    .promo-area {
+        margin-top: 0;
+    }
+    .have-cpap,
+    .need-cpap,
+    .need-test {
+        background-size: 70%;
+        padding-bottom: 50%;
+    }
+    .promo-area .promo-container:nth-child(2),
+    .promo-area .promo-container:nth-child(3) {
+        margin-left: 0;
+    }
+    .section-steps-eliminating .steps-container {
+        padding: 0 15px;
+    }
+    .section-steps-eliminating .step-block {
+        width: 100%;
+        padding: 5% 0 0 0;
+    }
+    .section-steps-eliminating .step-block:first-child {
+        padding: 0;
+    }
+    .section-steps-eliminating .step-block:last-child {
+        width: 100%;
+    }
+    .asa-mails-img,
+    .impressions-asa-img,
+    .asa-board-img,
+    .apnea-snoring-img,
+    .asa-bills-img {
+        background-size: 45%;
+        padding-top: 30%;
+    }
+    .steps-arrow-img {
+        display: none;
+    }
+    .have-cpap-block {
+        background-size: 180%;
+        padding-top: 130%;
+    }
+    .sleep-test-steps {
+        width: 100%;
+        background-image: linear-gradient(to top, #f3f7f9, #b7ccd7);
+        padding: 30px 15px;
+        border-radius: 25px;
+        margin-bottom: 5%;
+    }
+    .sleep-test1,
+    .sleep-test2,
+    .sleep-test3,
+    .sleep-test4,
+    .sleep-test5 {
+        background-size: 45%;
+        padding-top: 62%;
+    }
+    .test-text {
+        background-image: none;
+        height: auto;
+    }
+    .section-sleep-test .wrap-step {
+        padding: 0 15px;
+    }
+    .test-text p.numbers {
+        position: inherit;
+        margin-top: 10%;
+    }
+    .dr-oz-block .img-wrap {
+        position: inherit;
+    }
+    .dr-oz-img {
+        background: url(../img/dr-oz-img.png) no-repeat center top;
+        background-size: 50%;
+        padding-top: 70%;
+    }
+    .cdc-block .girl-img-wrap {
+        position: inherit;
+    }
+    .cdc-girl-img {
+        background: url(../img/cdc-girl-img.png) no-repeat center top;
+        background-size: 60%;
+        padding-top: 100%;
+    }
+    .section-pre-qualify .btns-wrapper .container-btn {
+        display: inline-block;
+        margin-right: 0;
+    }
+    .section-pre-qualify .call-block-container {
+        padding-left: 0;
+    }
+    .no-pad-left-xs {
+        padding-left: 0;
+    }
+    .section-pre-qualify .bg {
+        padding: 0 3% 0 3%;
+    }
+    .section-sertified-doctors .bg {
+        background: url(../img/sertified-doctors-bg-xs.png) no-repeat center top;
+        background-size: 167%;
+        padding: 11% 0 0 0;
+    }
+    .promo-block {
+        background-image: linear-gradient(to right, #f26722 1%, #f8991d 7%, #f37021 10%, #cb2027 37%, #cb2027 81%, #f47621 96%);
+        text-align: center;
+        margin-left: 0;
+        padding: 3% 5%;
+        border-radius: 20px;
+        position: inherit;
+        width: auto;
+    }
+    .doctor-img {
+        background: url(../img/doctor-img.png) no-repeat center top;
+        background-size: 70%;
+        padding-top: 90%;
+    }
+    .section-sertified-doctors .promo-wrap {
+        margin-top: -90px;
+    }
+    .promo-arrow-xs {
+        background: url(../img/promo-arrow-xs.png) no-repeat center bottom;
+        background-size: 20%;
+        padding-bottom: 15%;
+    }
+    .section-sertified-doctors .primary-content {
+        padding-bottom: 5%;
+    }
+    .sleep-better-girl {
+        background-size: 50%;
+        padding-top: 63%;
+    }
+    .left-block {
+        padding: 0;
+    }
+    .section-sleep-better .fda-cpap-block .top-section .cpap-wrap,
+    .section-sleep-better .fda-cpap-block .top-section .oral-appliance-wrap {
+        padding: 0;
+    }
+    .cpap-img {
+        background: url(../img/cpap-img.png) no-repeat left top;
+        background-size: 65%;
+        padding-top: 50%;
+    }
+    .section-fda-cleared .text-wrap {
+        padding: 0 15px;
+    }
+    .section-sleep-test .vd-player {
+        float: initial;
+        margin: 0 auto;
+        display: inline-block;
+        height: 100%;
+    }
+    .section-steps-study .have-study .step-wrapper p,
+    .section-steps-study .not-have-study .step-wrapper p {
+        font: 24px/30px Arial;
+        text-align: left;
+    }
+    .width-xs-50 {
+        width: 50%;
+        float: left;
+    }
+    .width-xs-30 {
+        width: 30%;
+        float: left;
+    }
+    .width-xs-70 {
+        width: 70%;
+        float: left;
+    }
+    .section-oralAppliance-cpap .have-cpap-block .firstText-block p {
+        padding: 0% 2% 0 7%;
+    }
+    .section-oralAppliance-cpap .have-cpap-block .secondText-block {
+        padding: 9% 0%;
+        height: 33%;
+        left: 0;
+        right: 0;
+    }
+    .section-oralAppliance-cpap .have-cpap-block .firstText-block {
+        padding: 0 13%;
+    }
+    .section-fda-cleared-img {
+        background: url(../img/fda-cleared-bg.png) no-repeat center bottom;
+        background-size: 147%;
+        padding-top: 43%;
+        padding-bottom: 45%;
+        margin-bottom: -6%;
+    }
+    .section-fda-cleared .text-line-bg {
+        padding-top: 52%;
+        margin: 3% 0 0;
+        background-size: 62%;
+    }
+    .vd-player .player-block-wrap {
+        min-height: 105px;
+    }
+    .adjustable-block .number {
+        background: url(../img/number-img.png) no-repeat center top;
+        margin-top: -10%;
+        background-size: 26%;
+        padding-top: 26%!important;
+    }
+    .section-four-steps .second-row p {
+        padding: 3% 0% 2% 0;
+    }
+    .section-four-steps .second-row span {
+        font: normal 24px/32px Arial;
+    }
+    .section-sleep-test .vd-player p {
+        font-size: 16px;
+        padding: 10px 15px 0 0;
+        text-align: left;
+        line-height: 20px;
+    }
+    .sleep-girl-img {
+        background: url(../img/sleep-girl-img-xs.png) no-repeat left top;
+        background-size: 100%;
+        padding-top: 45%;
+    }
+    .section-four-steps .second-row .number {
+        background: url(../img/number-img.png) no-repeat center top;
+        margin-top: -10%;
+        background-size: 26%;
+        padding-top: 26%!important;
+    }
+    .section-sleep-test .vd-player a {
+        float: left;
+    }
+    .section-sertified-doctors .bg .first-block {
+        position: inherit;
+        top: 81px;
+        background: #e4e3e3;
+    }
+    .verification .steps-wrapper-block .step-img-container {
+        position: inherit;
+        float: left;
+        width: 78px;
+        height: 97px;
+        left: 0;
+        top: 0;
+    }
+    .verification .steps-wrapper-block {
+        padding: 0 15px 20px;
+    }
+    .verification .steps-wrapper-block .text-wrapper p {
+        padding-left: 80px;
+        text-align: left;
+    }
+    .verification .cf-chance {
+        width: 100%;
+    }
+    .verification .dozing-block {
+        padding: 0;
+    }
+    .verification .dozing-block .group {
+        padding: 5px;
+    }
+    .navbar2 .call-wrap {
+        width: 100%;
+        padding: 0;
+        display: inline-block;
+    }
+    .navbar2 p.call {
+        float: initial;
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .wrap-label-xs {
+        width: 100%;
+    }
+    .wrap-select-xs {
+        width: 100%;
+    }
+    .verification .dozing-block .group {
+        height: inherit;
+    }
+    .verification .selectbox {
+        float: left;
+        width: 200px;
+    }
+    .verification .selectbox .select {
+        height: 36px;
+        font: normal 18px/26px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .verification .selectbox .trigger {
+        width: 32px;
+        height: 34px;
+    }
+    .verification .selectbox .trigger .arrow {
+        top: 11px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 14px solid #000;
+    }
+    .verification .selectbox .dropdown {
+        top: 35px;
+    }
+    .verification .selectbox li {
+        font: normal 18px/26px Arial, Verdana, Tahoma, sans-serif;
+    }
+}
+
+@media (max-width: 600px) {
+    .width-xs-50,
+    .width-xs-30,
+    .width-xs-70 {
+        width: 100%;
+    }
+    .MSNBC-img {
+        background: url(../img/MSNBC-img.png) no-repeat left top;
+        background-size: 70%;
+        padding-top: 50%;
+    }
+    .no-padding-left-600 {
+        padding-left: 0;
+    }
+    .mayo-clinic-img {
+        background: url(../img/mayo-clinic-img.png) no-repeat left top;
+        background-size: 85%;
+        padding-top: 40%;
+        margin-bottom: 15px;
+    }
+    .fox-news-img {
+        background: url(../img/fox-news-img.png) no-repeat left top;
+        background-size: 75%;
+        padding-top: 40%;
+    }
+    .cdc-logo-img {
+        margin-top: 5%;
+    }
+    .us-department-img {
+        background: url(../img/us-department-img.png) no-repeat left top;
+        background-size: 50%;
+        padding-top: 51%;
+    }
+    .accredited-img {
+        background: url(../img/accredited-img.png) no-repeat left top;
+        background-size: 70%;
+        padding-top: 56%;
+        margin-top: 20px;
+    }
+    .not-have-study6-img {
+        background-size: 40%;
+        padding-top: 42%;
+    }
+    .not-have-study5-img {
+        background-size: 40%;
+        padding-top: 58%;
+        margin-top: 15px;
+    }
+    .not-have-study4-img {
+        background-size: 40%;
+        padding-top: 42%;
+    }
+    .not-have-study3-img,
+    .not-have-study2-img,
+    .not-have-study1-img,
+    .have-study5-img,
+    .have-study4-img,
+    .have-study3-img,
+    .have-study2-img,
+    .have-study1-img {
+        background-size: 40%;
+        padding-top: 42%;
+    }
+    .section-fda-cleared .text-line-bg {
+        display: none;
+    }
+    .text-wrap.sm .text-line-bg {
+        display: inherit;
+    }
+    .section-fda-cleared-img {
+        background: url(../img/fda-cleared-bg-xs.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 37%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .section-fda-cleared .text-line-bg {
+        background: none;
+        padding-top: 0;
+        margin: 0;
+        left: 0px;
+    }
+    .section-fda-cleared .text-line-bg ul {
+        position: inherit;
+        list-style-position: inside;
+        padding: 2%;
+        line-height: 28px;
+    }
+    .section-oralAppliance-cpap .xs .firstText-block {
+        display: inherit;
+        text-align: center;
+    }
+    .section-oralAppliance-cpap .xs .firstText-block p {
+        text-align: center;
+    }
+    .section-oralAppliance-cpap .have-cpap-block .firstText-block {
+        display: none;
+    }
+    .section-oralAppliance-cpap .have-cpap-block .secondText-block {
+        padding: 2% 0;
+        position: inherit;
+    }
+    .have-cpap-block {
+        background-size: 100%;
+        padding-top: 72%;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-sertified-doctors p.slogan {
+        font-size: 200%;
+    }
+    .verification .steps-wrapper-block .text-wrapper {
+        padding: 20px 15px;
+    }
+    .selectbox {
+        width: 100%;
+    }
+    .verification .dozing-block .group {
+        padding: 5px 15px;
+    }
+    .section-order-form {
+        padding: 0 20px;
+    }
+    .order form .form-control {
+        width: 100%;
+    }
+    .order form .birth-inputs {
+        width: 100%;
+    }
+    .order form .for-input .first {
+        padding: 0 25px 0 0;
+    }
+    .order form .selectbox {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .verification .steps-wrapper-block .step-img-container {
+        width: 100%;
+        height: inherit;
+    }
+    .verification .steps-wrapper-block .step-img3,
+    .verification .steps-wrapper-block .step-img2,
+    .verification .steps-wrapper-block .step-img1 {
+        background-size: 30%;
+        padding-top: 38%;
+    }
+    .verification .steps-wrapper-block .text-wrapper p {
+        padding: 0;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    /*--------font styles--------*/
+    
+    .login-btn {
+        font-size: 18px;
+        padding: 5px 22px;
+    }
+    .section-sertified-doctors p.slogan {
+        /*        padding-top: 10%;*/
+        
+        text-align: center;
+        font: 16px/26px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    }
+    .promo-block {
+        font: 20px/24px MyriadProBold, Arial, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p span {
+        font: 44px/62px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p {
+        font: 24px/30px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p.call {
+        font: 24px/30px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .section-sertified-doctors .free-shipping-block p.call span {
+        font-size: 26px;
+    }
+    .promo-area h3 {
+        font: normal 32px/36px HelveticaNeue_Medium_Cond, Arial, sans-serif;
+        height: auto;
+        padding: 6% 0 3%;
+    }
+    .promo-area p {
+        font: bold 20px/28px Arial;
+    }
+    .section-steps-eliminating h2 {
+        font: normal 32px/36px MyriadProSemibold, Arial, sans-serif;
+    }
+    .section-steps-eliminating p,
+    .section-sleep-test p {
+        font: bold 20px/28px Arial;
+    }
+    .section-pre-qualify h2 {
+        font: 42px/46px FuturaExtraBlackItalic, Arial, sans-serif;
+        padding-left: 0;
+    }
+    .section-pre-qualify h4 {
+        font: bold 22px/28px Arial;
+        padding-left: 0;
+    }
+    .section-pre-qualify p {
+        font: 20px/28px MyriadProBoldCondensedItalic, Arial, sans-serif;
+        padding-left: 0;
+    }
+    .section-sleep-better h2 {
+        font: normal 32px/36px MyriadPro-Regular, Arial, sans-serif;
+        padding: 10px 15px;
+    }
+    .section-sleep-better p,
+    .section-sleep-better .cause-sleep-apnea p {
+        font: 18px/28px Arial;
+    }
+    .section-sleep-better .cause-sleep-apnea h2 {
+        font: 32px/36px Arial;
+    }
+    .section-sleep-better .cause-sleep-apnea h3 {
+        font: 26px/34px Arial;
+    }
+    .section-sleep-better .fda-cpap-block p {
+        font: 23px/33px Arial;
+    }
+    .section-sleep-better .fda-cpap-block .top-section p {
+        font: 18px/28px Arial;
+    }
+    .section-oralAppliance-cpap h2 {
+        font: normal 34px/36px Arial;
+    }
+    .section-oralAppliance-cpap p {
+        font: 18px/28px Arial;
+    }
+    .section-oralAppliance-cpap h3 {
+        font: 26px/34px Arial;
+    }
+    .section-oralAppliance-cpap ul {
+        font: bold 18px/26px Arial;
+    }
+    .section-oralAppliance-cpap ul li {
+        line-height: 22px;
+        margin: 15px 0;
+    }
+    .autoCpap-block h2,
+    .section-four-steps h2,
+    .section-sleep-test h2 {
+        font: bold italic 38px/44px BasicSansLightSFRegular, Arial, sans-serif;
+    }
+    .autoCpap-block p,
+    .section-four-steps p,
+    .section-four-steps .first-row p,
+    .section-four-steps .second-row p {
+        font: normal 20px/28px Arial;
+    }
+    .test-text p {
+        font: bold italic 20px/28px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .section-steps-study h2 {
+        font: italic 38px/44px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .section-asa-accredited h2 {
+        color: #2f316e;
+        font: italic normal 38px/44px MyriadPro-Regular, Arial, sans-serif;
+        padding: 0px 0 10px;
+    }
+    .section-asa-accredited p {
+        font: normal 20px/28px Arial;
+    }
+    .section-asa-accredited p.sub-title {
+        font: bold 24px/28px Arial;
+    }
+    .section-asa-accredited ul {
+        font: bold 18px/26px Arial;
+    }
+    /*
+    .section-asa-accredited ul li {
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+*/
+    /*
+    .section-asa-accredited .asa-accredited-btn {
+        height: 50px;
+        width: 100%;
+    }
+*/
+    
+    .fda-cleared-block h3 {
+        font: italic normal 38px/44px MyriadPro-Regular, Arial, sans-serif;
+    }
+    .fda-cleared-block p.sub-title {
+        font: bold 24px/28px Arial;
+    }
+    .fda-cleared-block ul {
+        font: bold 18px/26px Arial;
+    }
+    /*
+    .fda-cleared-block ul li {
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+*/
+    
+    .fda-cleared-block p.link {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .us-department-block p.sub-title {
+        font: bold 24px/28px Arial;
+    }
+    .us-department-block ol {
+        padding: 10px 15px 20px 20px;
+        font: italic bold 16px/26px Arial;
+    }
+    .cdc-block p.sub-title {
+        font: bold 24px/28px Arial;
+    }
+    .cdc-block ul {
+        font: italic bold 18px/26px Arial;
+        padding: 40px 10px 20px 0;
+    }
+    /*
+    .cdc-block ul li {
+        list-style-position: inside;
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+*/
+    
+    .dr-oz-block p.sub-title {
+        font: italic bold 24px/28px Arial;
+    }
+    .dr-oz-block p {
+        font: 20px/28px Arial;
+    }
+    .fox-news-block p.sub-title {
+        font: italic bold 24px/28px Arial;
+    }
+    .fox-news-block p,
+    .mayo-clinic-block p {
+        font: italic 20px/28px Arial;
+    }
+    .mayo-clinic-block ul {
+        font: italic bold 18px/28px Arial;
+    }
+    .mayo-clinic-block ul li {
+        list-style-image: url(../img/icon-ul-xs.png);
+    }
+    .mayo-clinic-block h3 {
+        font: italic 26px/36px Arial;
+        padding-bottom: 0;
+    }
+    .mayo-clinic-block ul li span {
+        font-size: 120%;
+    }
+    .MSNBC-block h3 {
+        font: italic 26px/36px Arial;
+    }
+    .MSNBC-block p {
+        font: italic 20px/28px Arial;
+    }
+    .faq-block h4 {
+        font: italic bold 26px/42px Arial, Verdana, Tahoma, sans-serif;
+        padding-bottom: 0;
+    }
+    .faq-block p {
+        font: italic 20px/28px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap .quote {
+        font: italic bold 22px/36px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap h5 {
+        font: italic bold 22px/32px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap p {
+        font: italic 20px/28px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap p.signature strong {
+        padding-bottom: 0px;
+        font: italic bold 24px/36px Arial, Verdana, Tahoma, sans-serif;
+    }
+    .faq-block .testimonials-wrap p.signature span {
+        padding-bottom: 0;
+        font: italic 18px/32px Arial, Verdana, Tahoma, sans-serif;
+    }
+    /*--------/font styles--------*/
+    /*
+    .section-sertified-doctors .bg {
+        background-size: 180%;
+        padding: 158% 0 0 0;
+    }
+*/
+    
+    .section-sertified-doctors .promo-wrap {
+        margin-top: -35px;
+    }
+    .promo-block {
+        height: auto;
+    }
+    .section-asa-accredited .asa-accredited-btn {
+        white-space: inherit;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-logo img {
+        width: 90%;
+    }
+}
+/*--------/medias--------*/

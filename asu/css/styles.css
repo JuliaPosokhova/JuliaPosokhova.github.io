@@ -1,0 +1,2560 @@
+html,
+body {
+    height: 100%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    padding-bottom: 66px;
+    background-color: #fff;
+}
+
+.main {
+    min-height: 100%;
+}
+/*  common styles   */
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.no-paddingLeft {
+    padding-left: 0;
+}
+
+.no-paddingRight {
+    padding-right: 0;
+}
+
+a:hover,
+a:focus,
+a:visited {
+    text-decoration: none;
+    outline: 0;
+    color: #337ab7;
+}
+
+.white-hr hr {
+    border-top: 1px solid #fff;
+}
+
+hr {
+    border-top: 1px solid #d6d6d6;
+}
+/*  /common styles  */
+
+.main h2 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #3a3a3a;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -0.7px;
+}
+
+.main h3 {
+    font-size: 26px;
+    line-height: 32px;
+    color: #1d70a5;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    color: #333;
+}
+/*  navbar  */
+
+.main .navbar p {
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.main .navbar hr {
+    margin: 10px 20px;
+    padding: 0;
+    border-width: 1px;
+    color: #d6d6d6;
+}
+/*/navbar*/
+/*section-primary*/
+
+.section-primary .row {
+    margin: 0;
+    padding: 0;
+}
+
+.section-primary h1 {
+    text-align: center;
+    margin: 10px 0 15px;
+    color: #1b6ea0;
+}
+
+.main .section-primary .left-content-block {
+    background-color: #1b6194;
+    padding: 15px;
+    height: 450px;
+}
+
+.main .section-primary .image-caps {
+    background: url(../images/image-caps.png) no-repeat center center;
+    background-size: 100%;
+    padding-top: 61%;
+}
+
+.section-primary ul {
+    padding: 15% 2%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 2em;
+    margin: 0;
+}
+
+.main .section-primary .right-content-block {
+    background: url(../images/sleep-girl.png) no-repeat left top;
+    background-size: cover;
+    height: 450px;
+}
+
+.main .split-bar {
+    background-color: #313131;
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+.main .split-bar .payment-row {
+    padding-top: 10px;
+}
+
+.main .split-bar p {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    padding-top: 5px;
+}
+
+.main .link-phone-block a.click-img {
+    background: url(../images/icons/red-arrow.png) no-repeat left top;
+    padding-left: 16px;
+    background-position: 2px 7px;
+    color: #ff0000;
+    font-size: 23px;
+}
+
+.main .split-bar span {
+    font-size: 20px;
+    color: #fff;
+    color: #fff;
+}
+/*      /section-primary    */
+/*      section-causesSnoring   */
+
+.main .section-causesSnoring {
+    padding-top: 2%;
+}
+
+.normalBreathing-img {
+    background: url(../images/normalBreathing-img.png) no-repeat left top;
+    background-size: 75%;
+    padding-top: 70%;
+}
+
+.sleepApnea-img {
+    background: url(../images/sleepApnea-img.png) no-repeat left top;
+    background-size: 75%;
+    padding-top: 70%;
+}
+
+.eliminateSnoring-img {
+    background: url(../images/eliminateSnoring.png) no-repeat left top;
+    background-size: 75%;
+    padding-top: 70%;
+}
+
+.main .section-causesSnoring h3,
+.main .section-causesSnoring p {
+    text-align: left;
+}
+
+.main .section-causesSnoring hr {
+    color: #d6d6d6;
+}
+
+.main .section-causesSnoring .eliminateSnoring {
+    margin-left: -60px;
+}
+/*/section-causesSnoring*/
+/*section-separator*/
+
+.main .section-separator .widthDoctor-block {
+    background: radial-gradient(circle at center left, #196c95, #22a5d8, #1a77a3);
+    margin-top: 50px;
+    padding: 30px 0 25px;
+    cursor: pointer;
+}
+
+.main .section-separator .bg-2 {
+    background: #165b81;
+}
+
+.main .section-separator h3,
+.main .section-separator p {
+    color: #fff;
+    text-align: center;
+}
+
+.section-separator h3 {
+    font-weight: bold;
+}
+
+.main .doctor-img {
+    background: url("../images/doctor.png") no-repeat left top;
+    background-size: 62%;
+    padding-top: 0;
+    top: 0;
+    margin-top: -106px;
+    position: absolute;
+    height: 316px;
+    width: 100%;
+}
+/*     /section-separator     */
+/*  section FDA    */
+
+.main .section-FDA {
+    padding: 2% 0;
+}
+
+.h2-container {
+    padding: 0 15%;
+}
+
+.main .section-FDA p {
+    text-align: center;
+    padding: 1% 11%;
+}
+
+.main .section-FDA .cpap-img {
+    background: url(../images/cpap-img.png) no-repeat center top;
+    background-size: 92%;
+    padding-top: 53%;
+}
+
+.main .section-FDA .oralAppliance-img {
+    background: url(../images/oralAppliance-img.png) no-repeat center top;
+    background-size: 85%;
+    padding-top: 53%;
+}
+
+.container-img {
+    margin: 30px 0;
+}
+/*  /section FDA    */
+/*  section-confortable    */
+
+.main .section-confortable {
+    padding-top: 2%;
+}
+
+.main .section-confortable p,
+.main .section-conformTeeth .bg-conform p {
+    padding: 3% 15% 4%;
+    text-align: center;
+}
+
+.main .section-confortable h3 {
+    text-align: center;
+}
+
+.main .comfortableCaps-img {
+    background: url(../images/comfortableCaps-img.png) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 18%;
+    margin-top: 20px;
+}
+/*  /section-confortable    */
+/*    section-conformTeeth     */
+
+.main .section-conformTeeth .row {
+    margin: 0;
+    padding-bottom: 2%;
+}
+
+.main .section-conformTeeth .bg-conform {
+    padding: 3% 0 1%;
+    background-color: #05102b;
+}
+
+.main .section-conformTeeth .bg-conform h2 {
+    color: #1e99c0;
+    margin: 0px;
+}
+
+.main .section-conformTeeth .bg-conform p {
+    color: #fff;
+}
+
+.main .leftConform-img {
+    background: url(../images/leftConform-img.png) no-repeat right top;
+    background-size: 100% 100%;
+    padding-top: 37%;
+}
+
+.main .rightConform-img {
+    background: url(../images/rightConform-img.png) no-repeat left top;
+    background-size: 100% 100%;
+    padding-top: 37%;
+}
+/*    /section-conformTeeth     */
+/*    section-bulky    */
+
+.main .section-bulky {
+    padding: 2% 0;
+}
+
+.main .section-bulky p {
+    padding: 2% 11% 2%;
+    text-align: center;
+}
+
+.main .lessBulky-img {
+    background: url(../images/lessBulky-img.png) no-repeat right top;
+    background-size: 66%;
+    padding-top: 50%;
+}
+
+.main .bulky-img {
+    background: url(../images/bulky-img.png) no-repeat left top;
+    background-size: 66%;
+    padding-top: 50%;
+}
+
+.main .section-bulky .bulky-containerImg span {
+    display: table;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    padding: 1% 28% 2%;
+}
+
+.main .section-bulky .capa-name1 {
+    float: right;
+}
+
+.main .section-bulky .capa-name2 {
+    float: left;
+}
+
+.main .capaDemo1-img {
+    background: url(../images/capaDemo1-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .capaDemo2-img {
+    background: url(../images/capaDemo2-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .capaDemo3-img {
+    background: url(../images/capaDemo3-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .section-bulky span.numbers,
+.main .section-customFitted span.numbers {
+    display: inline-block;
+    color: #1d70a5;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.main .section-bulky .capaDemo-description,
+.main .section-customFitted .capaDemo-description {
+    font-size: 16px;
+    line-height: 20px;
+}
+/*    /section-bulky    */
+/*    section-cpapReplace    */
+
+.main .section-cpapReplace {
+    padding-top: 2%;
+}
+
+.main .section-cpapReplace .container {
+    padding-bottom: 2%;
+}
+
+.main .section-cpapReplace .cpapReplace-img {
+    background: url(../images/cpapReplace-img.png) no-repeat center top;
+    background-size: 66%;
+    padding-top: 40%;
+}
+
+.main .section-cpapReplace p {
+    padding: 2% 11% 3%;
+    text-align: center;
+}
+/*    /section-cpapReplace    */
+/*    section-compareProducts    */
+
+.main .section-compareProducts {
+    background-image: linear-gradient(#001e63, #022771, #3a62c2);
+    width: 100%;
+    height: 100%;
+    padding: 1% 0 2%;
+}
+
+.main .section-compareProducts h2 {
+    color: #1e99bf;
+}
+
+.main .section-compareProducts h3 {
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+}
+
+.main .section-compareProducts p {
+    color: #fff;
+    padding: 2% 14% 3%;
+    text-align: center;
+}
+
+.main .section-compareProducts .fdaApnea-img {
+    background: url(../images/fdaApnea-img.png) no-repeat center top;
+    background-size: 70%;
+    padding-top: 67%;
+}
+
+.main .section-compareProducts .fdaSnoring-img {
+    background: url(../images/fdaSnoring-img.png) no-repeat center top;
+    background-size: 70%;
+    padding-top: 67%;
+}
+/*    /section-compareProducts    */
+/*    section-bestQuality    */
+
+.main .section-bestQuality {
+    padding: 2% 0;
+}
+
+.main .section-bestQuality p {
+    padding: 2% 11% 3%;
+    text-align: center;
+}
+
+.main .section-bestQuality .value-img {
+    background: url(../images/value-img.png) no-repeat center top;
+    background-size: 65%;
+    padding-top: 40%;
+}
+/*    /section-bestQuality    */
+/*    section-customFitted    */
+
+.main .section-customFitted {
+    padding-top: 2%;
+}
+
+.main .section-customFitted .padding-row {
+    padding-bottom: 4%;
+}
+
+.main .section-customFitted h4 {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 17% 1%;
+    line-height: 30px;
+}
+
+.main .section-customFitted .makeCapa1-img {
+    background: url(../images/makeCapa1-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .section-customFitted .makeCapa2-img {
+    background: url(../images/makeCapa2-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .section-customFitted .makeCapa3-img {
+    background: url(../images/makeCapa3-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .section-customFitted .makeCapa4-img {
+    background: url(../images/makeCapa4-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .section-customFitted .makeCapa5-img {
+    background: url(../images/makeCapa5-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .section-customFitted .makeCapa6-img {
+    background: url(../images/makeCapa6-img.png) no-repeat center top;
+    background-size: 95%;
+    padding-top: 75%;
+}
+
+.main .cda-img {
+    background: url(../images/cda-img.png) no-repeat right top;
+    background-size: 55%;
+    padding-top: 40%;
+}
+
+.hr-container {
+    padding: 0 9% 3% 15%;
+}
+
+.main .section-customFitted .block-cda {
+    padding-top: 3%;
+}
+
+.main .section-customFitted .block-cda h2 {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.main .section-customFitted .block-cda h3 {
+    margin: 0;
+    color: #393939;
+}
+
+.main .section-customFitted p {
+    padding: 2% 11% 3%;
+    text-align: center;
+}
+
+.main .section-customFitted ul.cda-ul1 {
+    display: table;
+    margin: 0 auto 2%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.main .section-customFitted ul.cda-ul1 li {
+    list-style-image: url(../images/icons/tick.png);
+    list-style-position: inside;
+}
+
+.main .section-customFitted ul.cda-ul2 {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.main .section-customFitted ul.cda-ul2 a {
+    font-size: 20px;
+}
+
+.main .section-customFitted ul.cda-ul2 p {
+    font-size: 18px;
+    padding: 1% 0;
+}
+
+.main .section-customFitted ul.cda-ul2 li {
+    list-style-image: url(../images/icons/fda-snoring-slip-link.png);
+    list-style-position: inside;
+}
+
+.main .section-customFitted .section-separator .widthDoctor-block {
+    background: #165b81;
+}
+/*    /section-customFitted    */
+/*    section-guarantee    */
+
+.main .section-guarantee {
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+
+.main .section-guarantee .hands-img {
+    background: url(../images/hands-img.png) no-repeat center top;
+    background-size: 55%;
+    padding-top: 27%;
+}
+
+.main .section-guarantee h3 {
+    color: #197e9f;
+    text-align: center;
+}
+
+.main .section-guarantee p {
+    padding: 2% 11% 3%;
+    text-align: center;
+}
+
+.main .section-guarantee h4 {
+    text-align: center;
+    padding: 5% 22% 2%;
+    color: #197e9f;
+    line-height: 24px;
+}
+
+.main .section-guarantee ol {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    width: 70%;
+}
+
+.main .section-guarantee ol.first {
+    float: right;
+}
+/*    /section-guarantee    */
+/*    section-fdaCleared    */
+
+.main .section-fdaCleared {
+    width: 100%;
+    background-image: linear-gradient(#dcf0f2, #ebf6f8, #fff);
+    background-repeat: repeat-x;
+    padding: 3% 0 2%;
+}
+
+.main .section-fdaCleared h2 {
+    text-align: left;
+    margin: 0;
+}
+
+.main .section-fdaCleared h3.first-h3 {
+    margin: 0;
+    color: #393939;
+    font-weight: bold;
+}
+
+.main .section-fdaCleared h3.second-h3 {
+    color: #1f5f8b;
+    padding-bottom: 3%;
+    margin: 0;
+}
+
+.main .section-fdaCleared .white-hr hr {
+    border-top: 1px solid #fff;
+}
+
+.main .section-fdaCleared h5 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.main .section-fdaCleared .fdaCleared-img {
+    background: url(../images/fdaCleared-img.png) no-repeat right top;
+    background-size: 60%;
+    padding-top: 25%;
+}
+
+.main .section-fdaCleared ul.fda-hadTo {
+    list-style-image: url(../images/icons/tick.png);
+    font-size: 16px;
+    line-height: 2em;
+    letter-spacing: -0.4px;
+    padding-bottom: 3%;
+}
+
+.main .section-fdaCleared ul.fda-hadTo li {
+    line-height: 20px;
+    padding-bottom: 2%;
+}
+
+.main .section-fdaCleared ul.fda-snoring-slip-link {
+    list-style-image: url(../images/icons/fda-snoring-slip-link.png);
+    font-size: 20px;
+    display: table;
+    margin: 0 auto;
+}
+
+.main .section-fdaCleared hr {
+    margin: 10px 16%;
+    border-top: 1px solid #d6d6d6;
+}
+
+.main .section-fdaCleared .section-separator .widthDoctor-block {
+    background: #165b81;
+}
+/*    /section-fdaCleared    */
+/*    section-department    */
+
+.main .section-department {
+    padding: 2% 0 3%;
+}
+
+.main .section-department h2 {
+    margin: 0;
+    text-align: left;
+}
+
+.main .section-department h3 {
+    color: #333;
+    font-weight: normal;
+    padding: 0px 26% 0 17%;
+    margin-top: 0;
+    font-size: 22px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.main .section-department h2.second {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.main .section-department hr {
+    border-top: 1px solid #d6d6d6;
+}
+
+.main .section-department .department-img {
+    background: url(../images/department-img.png) no-repeat right top;
+    background-size: 50%;
+    padding-top: 53%;
+}
+
+.main .section-department ol {
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: -0.6px;
+}
+/*    /section-department    */
+/*    section-cdc    */
+
+.main .seeStudy-link {
+    padding-left: 15px;
+}
+
+.main .seeStudy-link a {
+    background: url(../images/icons/red-arrow.png) no-repeat left top;
+    padding-left: 20px;
+    background-position: 1px 2px;
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.main .section-cdc h2 {
+    margin: 0;
+    text-align: left;
+    line-height: 38px;
+}
+
+.main .section-cdc ul {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: bold;
+    margin: 15% 0 5%;
+    display: inline-block;
+}
+
+.main .section-cdc .span-h2 {
+    color: #2a4083;
+    font-weight: normal;
+}
+
+.main .section-cdc h3.first {
+    margin: 0;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    color: #333;
+}
+
+.main .section-cdc .white-hr hr {
+    border-top: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.main .section-cdc {
+    width: 100%;
+    background-image: linear-gradient(#dcf0f2, #e5f4f6, #fff);
+    background-repeat: repeat-x;
+    padding-top: 3%;
+}
+
+.main .section-cdc hr {
+    margin: 0;
+    border-top: 1px solid #d9e9ef;
+}
+
+.main .cdc-img {
+    background: url(../images/cdc-img.png) no-repeat right top;
+    background-size: 69%;
+    padding-top: 60%;
+    margin-top: 5px;
+}
+
+.main .cdcGirl-img {
+    background: url(../images/cdcGirl-img.png) no-repeat left bottom;
+    background-size: 100%;
+    padding-top: 218%;
+    margin-left: -86px;
+    margin-top: -85px;
+}
+
+.main .section-cdc .section-separator .widthDoctor-block {
+    background: #165b81;
+}
+
+.cdcWidth-40 hr {
+    display: none;
+}
+/*    /section-cdc    */
+/*    section-drOz    */
+
+.main .section-drOz {
+    padding: 2% 0 0;
+}
+
+.main .section-drOz h2 {
+    margin: 0;
+    text-align: left;
+    line-height: 36px;
+}
+
+.main .section-drOz h3 {
+    color: #333;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+    margin: 5px 0 0;
+    letter-spacing: -0.6px;
+}
+
+.main .section-drOz .drOz-logo-img {
+    background: url(../images/drOz-logo-img.png) no-repeat right top;
+    background-size: 40%;
+    padding-top: 46%;
+}
+
+.main .section-drOz .drOz-img {
+    background: url(../images/dr-drOz-img.png) no-repeat left bottom;
+    background-size: 100%;
+    padding-top: 203%;
+    margin-left: -30%;
+    /*    position: absolute;*/
+    
+    width: 100%;
+}
+/*    /section-drOz    */
+/*    section-foxNews    */
+
+.main .section-foxNews {
+    background-image: linear-gradient(#dcf0f2, #fff);
+    background-repeat: repeat-x;
+    padding: 2% 0 3%;
+}
+
+.main .section-foxNews .text-container {
+    padding: 3% 11%;
+}
+
+.main .section-foxNews .foxNews-logo-img {
+    background: url(../images/foxNews-logo-img.png) no-repeat right top;
+    background-size: 53%;
+    padding-top: 52%;
+}
+
+.main .section-foxNews h2.first {
+    color: #222c5d;
+    margin-top: 9%;
+}
+
+.main .section-foxNews h2 {
+    text-align: left;
+    margin: 0;
+}
+
+.main .section-foxNews h3.first {
+    color: #333;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: normal;
+    margin: 5px 0 0;
+    letter-spacing: -0.6px;
+    text-align: center;
+    padding: 3% 24% 3% 13%;
+}
+
+.section-foxNews .white-hr hr {
+    margin: 10px 0;
+}
+
+.main .section-foxNews .section-separator .widthDoctor-block {
+    background: #165b81;
+}
+/*    /section-foxNews    */
+/*    section-customers    */
+
+.main .section-customers {
+    padding: 1% 0 3%;
+}
+
+.main .section-customers .customer1 {
+    background: url(../images/photo/customer1.png) no-repeat right top;
+    background-size: 70%;
+    padding-top: 60%;
+}
+
+.main .section-customers .customer2 {
+    background: url(../images/photo/customer2.png) no-repeat right top;
+    background-size: 70%;
+    padding-top: 60%;
+}
+
+.main .section-customers .customer3 {
+    background: url(../images/photo/customer3.png) no-repeat right top;
+    background-size: 70%;
+    padding-top: 60%;
+}
+
+.main .section-customers .customer4 {
+    background: url(../images/photo/customer4.png) no-repeat right top;
+    background-size: 70%;
+    padding-top: 60%;
+}
+
+.main .section-customers h2 {
+    color: #1f608b;
+    padding-bottom: 3%;
+}
+
+.main .section-customers h4 {
+    margin-top: 0;
+    font-size: 26px;
+}
+
+.main .section-customers hr {
+    margin: 15px 0 10px;
+}
+
+.main .section-customers .name {
+    color: #1f5f8b;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 30%;
+    letter-spacing: -0.7px;
+    margin-bottom: 0;
+}
+
+.main .section-customers .address {
+    padding-left: 30%;
+    margin-top: 0;
+}
+
+.customer-block {
+    margin-top: 50px;
+}
+/*    /section-customers    */
+/*    section-faq    */
+
+.main .section-faq {
+    background-image: linear-gradient(to bottom, #dcf0f2 8%, #ebf6f8 22%, #fbfdfe 48%, #ffffff 100%);
+    background-repeat: repeat-x;
+    padding: 5% 0;
+}
+
+.main .section-faq .row {
+    margin: 0;
+}
+
+.main .section-faq .faq-img {
+    background: url(../images/faq-img.png) no-repeat center top;
+    background-size: 55%;
+    padding-top: 25%;
+}
+
+.main .section-faq h4 {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main .section-faq p {
+    padding: 1% 11%;
+    text-align: center;
+}
+
+.section-faq hr {
+    margin: 20px 12%;
+}
+/*    /section-faq    */
+/*      footer      */
+
+footer {
+    background-color: #efefef;
+    height: auto;
+}
+/*
+footer .footer-menu {
+    padding: 1% 0;
+}
+*/
+
+footer ul {
+    margin: 1% auto;
+    padding: 0;
+    display: table;
+    text-align: center;
+}
+
+footer .footer-menu ul li {
+    margin-right: 9px;
+    display: inline-block;
+    list-style: none;
+}
+
+footer .footer-menu ul > li > a {
+    color: #000000;
+    padding: 0;
+}
+/*      /footer      */
+/*      terms      */
+
+.section-terms .row {
+    margin: 0;
+}
+
+.section-terms .containerContent {
+    padding: 0 14% 3%;
+}
+
+.section-terms h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+}
+
+.section-terms h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #1d70a5;
+    letter-spacing: -0.5px;
+}
+
+.section-terms p {
+    padding-bottom: 3%;
+}
+
+.main .not-active {
+    color: #d9d9d9;
+}
+
+.footer-section footer {
+    background-color: #000;
+    height: 100%;
+}
+
+.footer-section footer .footer-menu ul > li > a {
+    color: #fff;
+    padding: 0;
+}
+/*      /terms      */
+/*      shipping policy      */
+
+.section-shippingPolicy .row {
+    margin: 0;
+}
+
+.section-shippingPolicy .containerContent {
+    padding: 0 14% 3%;
+}
+
+.section-shippingPolicy h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+}
+
+.section-shippingPolicy h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #1d70a5;
+    letter-spacing: -0.5px;
+}
+
+.section-shippingPolicy p {
+    padding-bottom: 3%;
+}
+/*
+.footer-section footer {
+    background-color: #000;
+}
+*/
+
+.footer-section footer .footer-menu ul > li > a {
+    color: #fff;
+    padding: 0;
+}
+/*      /shipping policy        */
+/*      contact       */
+
+.section-contact .row {
+    margin: 0;
+}
+
+.section-contact .containerContent {
+    padding: 0 14% 3%;
+}
+
+.section-contact h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+}
+
+.section-contact h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #1d70a5;
+    letter-spacing: -0.5px;
+}
+
+.section-contact p {
+    padding-bottom: 3%;
+    text-align: center;
+}
+/*
+.footer-section footer {
+    background-color: #000;
+}
+*/
+
+.footer-section footer .footer-menu ul > li > a {
+    color: #fff;
+    padding: 0;
+}
+/*      /contact       */
+/*     privacy      */
+
+.section-privacy .row {
+    margin: 0;
+}
+
+.section-privacy .containerContent {
+    padding: 0 14% 3%;
+}
+
+.section-privacy h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+}
+
+.section-privacy h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #1d70a5;
+    letter-spacing: -0.5px;
+}
+
+.section-privacy p {
+    padding-bottom: 3%;
+    margin-bottom: 0;
+}
+
+.address-block {
+    padding-bottom: 3%;
+}
+
+.address-block p {
+    padding-bottom: 0;
+}
+
+.section-privacy p.noPadding {
+    padding-bottom: 0;
+}
+/*
+.footer-section footer {
+    background-color: #000;
+}
+*/
+
+.footer-section footer .footer-menu ul > li > a {
+    color: #fff;
+    padding: 0;
+}
+/*      /privacy        */
+/*     thanks     */
+
+.section-thanks .row {
+    margin: 0;
+}
+
+.section-thanks .containerContent {
+    padding: 0 14% 3%;
+}
+
+.section-thanks h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+}
+
+.section-thanks h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: bold;
+    color: #1d70a5;
+    letter-spacing: -0.5px;
+}
+
+.section-thanks p {
+    padding: 2% 24% 0%;
+}
+/*
+.footer-section footer {
+    background-color: #000;
+}
+*/
+
+.footer-section footer .footer-menu ul > li > a {
+    color: #fff;
+    padding: 0;
+}
+/*      /thanks        */
+/*      section-checkout       */
+
+.section-checkout .navbar {
+    margin-bottom: 0;
+}
+
+.section-checkout ul {
+    padding-left: 2%;
+    color: #fff;
+}
+
+.main .section-checkout .row {
+    background-image: linear-gradient(#fdfeff, #14628f);
+    background-repeat: repeat-x;
+    width: 100%;
+    margin: 0;
+    /*    padding-bottom: 0%;*/
+}
+
+.main .section-checkout .capa-img {
+    background: url(../images/capa-img.png) no-repeat center top;
+    background-size: 100%;
+    padding-top: 100%;
+}
+
+.section-checkout h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+    margin: 5px 0 0;
+}
+
+.section-checkout h2 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+.section-checkout h3 {
+    text-align: left;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+
+.section-checkout ul {
+    list-style-position: inside;
+    padding: 6% 4%;
+}
+
+.main .check-wrapper {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 1px 20px;
+    margin-top: -440px;
+}
+
+.main .check-wrapper .form-control {
+    border-radius: 0;
+    height: 25px;
+}
+
+.dropdown ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main .payment-wrapper .count-product {
+    background-image: linear-gradient(#dff2fc, #fafdfe, #fff);
+    border-radius: 4px;
+    border: 1px solid #c8e7f9;
+    margin-top: 5%;
+    height: 40px;
+}
+
+.main .payment-wrapper .count-product a.checkoutArrow {
+    background: url(../images/icons/checkoutArrow.png) no-repeat center center;
+    padding-left: 25px;
+}
+
+.main .payment-wrapper .count-product .selectbox {
+    margin: 5% 0px;
+}
+
+.main .payment-wrapper .count-product p {
+    padding: 2% 0;
+    font-size: 20px;
+}
+
+.arrow-container {
+    padding-top: 7px;
+}
+
+.check-wrapper hr {
+    margin-bottom: 10px;
+}
+
+.check-wrapper span {
+    font-weight: bold;
+}
+
+.prices-block div {
+    padding: 0;
+}
+
+.totalPrice {
+    font-size: 18px;
+    color: #ff0000;
+}
+/*      select      */
+
+.selectbox {
+    vertical-align: middle;
+    cursor: pointer;
+    width: 100%;
+    font-weight: normal!important;
+}
+
+.selectbox .select {
+    width: 100%;
+    height: 25px;
+    padding: 0 45px 0 10px;
+    font-size: 14px;
+    color: #777777;
+    text-shadow: 1px 1px #FFF;
+    border: 1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    border-radius: 0;
+    box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.selectbox .select:active {
+    background: #f5f5f5;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.selectbox.focused .select {
+    border: 1px solid #5794BF;
+}
+
+.selectbox .select .text {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.selectbox .trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22px;
+    height: 23px;
+    border-left: 1px solid #CCC;
+    background-color: #777777;
+}
+
+.selectbox .trigger .arrow {
+    position: absolute;
+    top: 9px;
+    right: 6px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0.8;
+    filter: alpha(opacity=30);
+}
+
+.selectbox:hover .arrow {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.selectbox .dropdown {
+    top: 26px;
+    width: 100%;
+    margin: 0;
+    padding: 4px 0;
+    background: #FFF;
+    border: 1px solid #C6CBD0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /*    font: 14px/18px Arial, Tahoma, sans-serif;*/
+}
+
+.selectbox li {
+    padding: 4px 10px;
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+/*
+.selectbox li.selected {
+    color: #777777;
+}
+*/
+
+.selectbox li:hover {
+    background: #2983a6;
+    color: #FFF;
+}
+
+.selectbox li.disabled {
+    color: #AAA;
+}
+
+.selectbox li.disabled:hover {
+    background: none;
+}
+
+.main .check-wrapper .red-star {
+    color: red;
+    margin: 0 5px;
+}
+
+.main .check-wrapper .form-group-btn-primaty-order {
+    font-weight: normal;
+    background: radial-gradient(circle at center left, #196c95, #22a5d8, #1a77a3);
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    display: table;
+}
+
+.main .check-wrapper label {
+    font-weight: normal;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.footer-section.checkout {
+    padding-top: 5%;
+}
+/*      /select      */
+/*      /section-checkout       */
+/*      medias      */
+
+@media(max-width: 2000px) {
+    .main .section-primary .left-content-block, .main .section-primary .right-content-block {
+        height: 410px;
+    }
+    .main .section-primary .image-caps {
+        padding-top: 72%;
+    }
+}
+
+@media(max-width: 1700px) {
+    .main .section-primary .left-content-block, .main .section-primary .right-content-block {
+        height: 380px;
+    }
+    .main .section-primary .image-caps {
+        padding-top: 80%;
+    }
+}
+
+@media(max-width: 1199px) {
+    .main .split-bar p {
+        text-align: center;
+        float: none;
+    }
+    .main .link-phone-block {
+        display: table;
+        margin: 0 auto;
+    }
+    .main .section-primary .image-caps {
+        background-size: 80%;
+        padding-top: 52%;
+    }
+    .section-primary ul {
+        padding: 6% 2%;
+    }
+    .main .doctor-img {
+        top: 17px;
+        background-size: 84%;
+        height: 354px;
+    }
+    .main .cdcGirl-img {
+        padding-top: 238%;
+        margin-top: -46px;
+    }
+    .main .section-drOz .drOz-img {
+        padding-top: 283%;
+    }
+    .main .check-wrapper {
+        position: relative;
+        margin-top: 0;
+        padding-bottom: 6%;
+    }
+    .main .section-checkout .capa-img {
+        background: url(../images/capa-img.png) no-repeat center top;
+        background-size: 90%;
+        padding-top: 80%;
+    }
+    /*
+    .checkout footer {
+        margin-top: 0;
+    }
+*/
+    
+    .footer-section.checkout {
+        padding-top: 0;
+    }
+}
+
+@media(max-width: 991px) {
+    .main .lessBulky-img {
+        background: url(../images/lessBulky-img.png) no-repeat center top;
+        background-size: 66%;
+        padding-top: 50%;
+    }
+    .main .section-bulky .bulky-containerImg span {
+        float: none;
+    }
+    .main .bulky-img {
+        background: url(../images/bulky-img.png) no-repeat center top;
+        background-size: 66%;
+        padding-top: 50%;
+    }
+    .main .cda-img {
+        background-size: 90%;
+        padding-top: 66%;
+    }
+    .main .section-guarantee ol {
+        width: 100%;
+    }
+    .main .section-fdaCleared .fdaCleared-img {
+        background-size: 95%;
+        padding-top: 40%;
+    }
+    .main .section-fdaCleared hr {
+        margin: 2%;
+    }
+    .main .section-department .department-img {
+        background-size: 80%;
+        padding-top: 82%;
+    }
+    .main .cdc-img {
+        background-size: 90%;
+        padding-top: 68%;
+    }
+    .main .cdcGirl-img {
+        padding-top: 310%;
+    }
+    .main .section-cdc h3.first {
+        padding-bottom: 10%;
+    }
+    .main .section-cdc ul {
+        margin: 0;
+    }
+    .main .section-drOz .drOz-logo-img {
+        background-size: 80%;
+        padding-top: 91%;
+    }
+    .main .section-drOz .drOz-img {
+        padding-top: 510%;
+    }
+    .main .section-foxNews .foxNews-logo-img {
+        background-size: 70%;
+        padding-top: 66%;
+    }
+    .main .section-foxNews h2.first {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 767px) {
+    .main p, .main ul, .main ol, .main .section-bulky .bulky-containerImg span, .main .section-bulky .capaDemo-description, .main .section-customFitted .capaDemo-description, .main .section-customFitted h4, .main .section-customFitted ul.cda-ul1, .main .section-customFitted ul.cda-ul2 a, .main .section-customFitted ul.cda-ul2 p, .main .section-guarantee h4, .main .section-guarantee ol, .main .section-fdaCleared ul.fda-hadTo, .main .section-fdaCleared ul.fda-snoring-slip-link, .main .section-department ol, .main .section-cdc ul, .main .section-customers .name, .main .section-customers .address {
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: -1px;
+    }
+    .noPadding-xs {
+        padding: 0;
+    }
+    .main .split-bar p {
+        font-size: 36px;
+        padding-top: 5px;
+    }
+    .main .link-phone-block a,
+    .main .split-bar span {
+        font-size: 36px;
+        letter-spacing: -2px;
+    }
+    .main .link-phone-block a {
+        background: url(../images/icons/red-arrow.png) no-repeat left top;
+        padding-left: 30px;
+        background-size: 12%;
+        background-position: 2px 7px;
+    }
+    .main .link-phone-block {
+        text-align: center;
+    }
+    .main h3 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .main h2 {
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -1px;
+    }
+    .main .section-primary .left-content-block {
+        height: 100%;
+    }
+    .section-primary ul {
+        color: #333;
+        display: table;
+        margin: 0 auto;
+        line-height: 48px;
+    }
+    .h2-container {
+        padding: 0 2%;
+    }
+    .main .section-causesSnoring .eliminateSnoring {
+        margin-left: 0;
+    }
+    .normalBreathing-img {
+        background: url(../images/normalBreathing-img.png) no-repeat center top;
+        background-size: 90%;
+        padding-top: 81%;
+    }
+    .sleepApnea-img {
+        background: url(../images/sleepApnea-img.png) no-repeat center top;
+        background-size: 90%;
+        padding-top: 81%;
+    }
+    .eliminateSnoring-img {
+        background: url(../images/eliminateSnoring.png) no-repeat center top;
+        background-size: 90%;
+        padding-top: 81%;
+    }
+    .main .doctor-img {
+        background: url(../images/Doctor.png) no-repeat center top;
+        background-size: 45%;
+        padding-top: 60%;
+        margin-top: 0;
+        top: 0;
+        position: inherit;
+        height: auto;
+    }
+    .main .section-separator .widthDoctor-block {
+        margin-top: 0;
+    }
+    .main .cdcGirl-img {
+        background: url(../images/cdcGirl-img.png) no-repeat center top;
+        background-size: 35%;
+        padding-top: 55%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .main .section-drOz .drOz-img {
+        background: url(../images/dr-drOz-img-xs.png) no-repeat center bottom;
+        background-size: 70%;
+        padding-top: 135%;
+        width: 100%;
+    }
+    .main .comfortableCaps-img {
+        background: url(../images/comfortableCaps-img-xs.png) no-repeat;
+        background-size: 100%;
+        padding-top: 43%;
+        margin-top: 20px;
+    }
+    .main .capaDemo1-img {
+        background: url(../images/capaDemo1-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .capaDemo2-img {
+        background: url(../images/capaDemo2-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .capaDemo3-img {
+        background: url(../images/capaDemo3-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .paddingBottom-xs {
+        padding-bottom: 50px;
+    }
+    .main .section-bestQuality .value-img {
+        background: url(../images/value-img.png) no-repeat center top;
+        background-size: 90%;
+        padding-top: 65%;
+    }
+    .main .section-customFitted .makeCapa1-img {
+        background: url(../images/makeCapa1-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-customFitted .makeCapa2-img {
+        background: url(../images/makeCapa2-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-customFitted .makeCapa3-img {
+        background: url(../images/makeCapa3-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-customFitted .makeCapa4-img {
+        background: url(../images/makeCapa4-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-customFitted .makeCapa5-img {
+        background: url(../images/makeCapa5-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-customFitted .makeCapa6-img {
+        background: url(../images/makeCapa6-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-customFitted h4 {
+        padding: 0 3%;
+    }
+    .main .cda-img {
+        background: url(../images/cda-img.png) no-repeat left top;
+        background-size: 100%;
+        padding-top: 70%;
+    }
+    .main .section-customFitted .block-cda h2,
+    .main .section-cdc h2 {
+        margin: 0;
+        letter-spacing: -3px;
+    }
+    .main .section-customFitted .block-cda h3,
+    .main .section-fdaCleared h3.first-h3,
+    .main .section-department h2.second,
+    .main .section-cdc h3.first,
+    .main .section-foxNews h3.first {
+        letter-spacing: -3px;
+        font-weight: normal;
+        line-height: 34px;
+        font-size: 30px;
+    }
+    .hr-container {
+        padding: 0;
+    }
+    .main .section-customFitted ul.cda-ul1 {
+        color: #000;
+        padding: 2% 0;
+    }
+    .main .section-customFitted .container-p {
+        padding: 2% 1% 3%;
+    }
+    .main .section-customFitted ul.cda-ul2 {
+        padding: 0;
+    }
+    .main .section-guarantee .hands-img {
+        background: url(../images/hands-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 50%;
+    }
+    .main .section-guarantee h4 {
+        padding: 0 0 3%;
+    }
+    .main .section-guarantee ol {
+        font-weight: normal;
+        margin: 0;
+    }
+    .main .section-fdaCleared .fdaCleared-img {
+        background-size: 100%;
+        padding-top: 44%;
+    }
+    .main .section-fdaCleared h2 {
+        line-height: 30px;
+    }
+    .main .section-fdaCleared ul.fda-hadTo li {
+        padding-bottom: 5%;
+        line-height: 34px;
+    }
+    .main .section-fdaCleared ul.fda-hadTo,
+    .main .section-customFitted ul.cda-ul1 li {
+        list-style-image: url(../images/icons/tick-xs.png);
+    }
+    .main .section-department {
+        padding: 6% 0 3%;
+    }
+    .main .section-department .department-img {
+        background-size: 95%;
+        padding-top: 100%;
+    }
+    .main .section-department h3 {
+        padding: 0;
+    }
+    .main .section-department ol li {
+        padding-bottom: 5%;
+    }
+    .main .seeStudy-link a {
+        background: url(../images/icons/red-arrow.png) no-repeat left top;
+        padding-left: 30px;
+        background-position: 5px 3px;
+        color: #ff0000;
+        font-size: 22px;
+        background-size: 10%;
+    }
+    .main .seeStudy-link {
+        display: table;
+        margin: 0 auto;
+    }
+    .main .section-cdc h3.first {
+        padding-bottom: 4%;
+    }
+    .main .section-cdc hr {
+        width: 100%;
+    }
+    .main .cdc-img {
+        background-size: 100%;
+        padding-top: 80%;
+    }
+    .main .section-cdc ul {
+        font-weight: normal;
+        font-size: 26px;
+        margin-top: 3%;
+    }
+    .main .cdcGirl-img {
+        background: url(../images/cdcGirl-img.png) no-repeat left bottom;
+        background-size: 90%;
+        padding-top: 0;
+        margin-left: -15px;
+        margin-top: 200px;
+        width: 100%;
+        margin-right: 0;
+        height: 374px;
+    }
+    .paddingBt-xs {
+        padding-bottom: 10%;
+    }
+    .main .section-drOz .drOz-img {
+        background: url(../images/dr-drOz-img-xs.png) no-repeat center bottom;
+        background-size: 70%;
+        padding-top: 70%;
+        margin: 0;
+    }
+    .section-drOz hr {
+        margin: 0 0 6%;
+    }
+    .section-drOz p,
+    .section-foxNews p {
+        text-align: center;
+        margin: 0 3% 5%;
+    }
+    .main .section-foxNews {
+        padding: 5% 0 1%;
+    }
+    .main .section-foxNews .foxNews-logo-img {
+        background-size: 77%;
+        padding-top: 81%;
+    }
+    .main .section-customers .customer1 {
+        background: url(../images/photo/customer1.png) no-repeat center top;
+        background-size: 95%;
+        padding-top: 84%;
+    }
+    .main .section-customers .customer2 {
+        background: url(../images/photo/customer2.png) no-repeat center top;
+        background-size: 95%;
+        padding-top: 84%;
+    }
+    .main .section-customers .customer3 {
+        background: url(../images/photo/customer3.png) no-repeat center top;
+        background-size: 95%;
+        padding-top: 84%;
+    }
+    .main .section-customers .customer4 {
+        background: url(../images/photo/customer4.png) no-repeat center top;
+        background-size: 95%;
+        padding-top: 84%;
+    }
+    .section-faq h4 {
+        font-size: 36px;
+        line-height: 44px;
+        color: #000;
+        letter-spacing: -2px;
+    }
+    .main .section-faq .faq-img {
+        background: url(../images/faq-img.png) no-repeat center top;
+        background-size: 85%;
+        padding-top: 34%;
+    }
+    .section-faq hr {
+        border-top: 1px solid #d5d5d5;
+    }
+    .section-faq .white-hr hr {
+        border-top: 1px solid #fff;
+    }
+    .section-customers p {
+        text-align: center;
+        padding: 2% 0 3%;
+    }
+    .main .section-customers .address {
+        padding-left: 0;
+    }
+    .main .section-customers h4 {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+    .main .section-customers h2 {
+        padding-bottom: 6%;
+    }
+    .main .section-customers .name {
+        padding-left: 15%;
+    }
+    .cdcWidth-40 {
+        width: 40%;
+        float: left;
+    }
+    .section-thanks p {
+        padding: 0;
+    }
+    .main .section-checkout .capa-img {
+        background: url(../images/capa-img.png) no-repeat center top;
+        background-size: 75%;
+        padding-top: 62%;
+    }
+    .section-checkout h3 {
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .main .payment-wrapper .count-product {
+        height: 46px;
+    }
+    .main .check-wrapper .form-control {
+        height: 40px;
+    }
+    .selectbox .select {
+        height: 40px;
+        font-size: 26px;
+    }
+    .selectbox li {
+        font-size: 26px;
+    }
+    .selectbox .dropdown {
+        top: 41px;
+    }
+    .section-checkout ul {
+        padding: 0;
+    }
+    .main .payment-wrapper .count-product a.checkoutArrow {
+        background: url(../images/icons/checkoutArrow-xs.png) no-repeat center top;
+        padding-left: 32px;
+        padding-bottom: 13px;
+    }
+    .arrow-container {
+        padding-top: 5px;
+    }
+    .main .payment-wrapper .count-product p {
+        padding: 0;
+    }
+    .main .payment-wrapper .count-product .selectbox {
+        margin: 2px 0;
+    }
+    .selectbox .trigger {
+        width: 36px;
+        height: 38px;
+    }
+    .selectbox .trigger .arrow {
+        top: 14px;
+        right: 7px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 12px solid #000;
+    }
+    .main .check-wrapper .form-group-btn-primaty-order {
+        width: 330px;
+        height: 51px;
+        margin: 12% auto 0;
+        display: table;
+    }
+    .form-group .btn {
+        font-size: 32px;
+        letter-spacing: -2px;
+        line-height: 16px;
+    }
+    .main .payment-wrapper .count-product p {
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -2px;
+        margin-top: 3px;
+    }
+    .main .check-wrapper label {
+        color: #444;
+        font-size: 28px;
+        text-align: right;
+        padding: 0;
+    }
+    .form-horizontal .form-group {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .section-checkout .widthXs-40 {
+        width: 40%;
+        float: left;
+    }
+    .section-checkout .widthXs-60 {
+        width: 60%;
+        float: left;
+    }
+    .section-checkout .widthXs-30 {
+        width: 30%;
+        float: left;
+    }
+    .main .check-wrapper {
+        padding: 6% 3%;
+    }
+    .main .check-wrapper .radio-label {
+        text-align: left;
+        padding: 0;
+    }
+    .section-checkout label.alignXs {
+        text-align: left;
+        font-size: 19px;
+        line-height: 37px;
+        padding-right: 0;
+        color: #777;
+    }
+    .section-checkout h4 {
+        font-size: 30px;
+        text-align: center;
+        padding: 7% 0 4%;
+    }
+    .section-checkout .checkbox-block {
+        padding-left: 42%;
+        padding-right: 0;
+    }
+    .section-checkout .checkbox-block label {
+        font-size: 24px;
+        text-align: left;
+        padding-left: 40px;
+        color: #777;
+    }
+    .section-checkout .checkbox-block .checkbox input[type=checkbox] {
+        width: 22px;
+        height: 22px;
+        margin-left: -38px;
+    }
+    .totalPrice {
+        font-size: 25px;
+    }
+    .section-checkout .prices-block {
+        font-size: 24px;
+        padding: 4% 0 1%;
+    }
+    .section-checkout .prices-block div {
+        padding: 0;
+    }
+    .main h1 {
+        font-weight: bold;
+        text-align: center;
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: -0.5px;
+        margin: 5px 0 0;
+    }
+}
+
+@media(max-width: 650px) {
+    .cdcWidth-40 {
+        width: 100%;
+        float: initial;
+    }
+    .main .cdcGirl-img {
+        background: url(../images/cdcGirl-img.png) no-repeat center bottom;
+        background-size: 50%;
+        padding-top: 70%;
+        margin-left: 0;
+        margin-top: 0;
+        height: auto;
+    }
+    .hidden-hr {
+        display: none;
+    }
+    .cdcWidth-40 hr {
+        display: inherit;
+    }
+    .section-checkout .widthXs-60,
+    .section-checkout .widthXs-40,
+    .section-checkout .widthXs-30 {
+        width: 100%;
+    }
+    .main .check-wrapper label {
+        text-align: left;
+        padding: 0 15px;
+    }
+    .section-checkout .checkbox-block {
+        padding-left: 37px;
+    }
+    .paddingXs-650 {
+        padding-bottom: 5%;
+    }
+}
+
+@media(max-width: 550px) {
+    .main p, .main ul, .main ol, .main .section-bulky .bulky-containerImg span, .main .section-bulky .capaDemo-description, .main .section-customFitted .capaDemo-description, .main .section-customFitted h4, .main .section-customFitted ul.cda-ul1, .main .section-customFitted ul.cda-ul2 a, .main .section-customFitted ul.cda-ul2 p, .main .section-guarantee h4, .main .section-guarantee ol, .main .section-fdaCleared ul.fda-hadTo, .main .section-fdaCleared ul.fda-snoring-slip-link, .main .section-department ol, .main .section-cdc ul, .main .section-customers .name, .main .section-customers .address {
+        font-size: 24px;
+        line-height: 34px;
+        letter-spacing: -1px;
+    }
+    .main .split-bar p {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    .main .link-phone-block a,
+    .main .split-bar span {
+        font-size: 28px;
+        letter-spacing: -2px;
+    }
+    .main h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .main h2 {
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -1px;
+    }
+    .main .section-customFitted .block-cda h3,
+    .main .section-fdaCleared h3.first-h3,
+    .main .section-department h2.second,
+    .main .section-cdc h3.first,
+    .main .section-foxNews h3.first {
+        letter-spacing: -3px;
+        font-weight: normal;
+        line-height: 30px;
+        font-size: 26px;
+    }
+    .section-faq h4 {
+        font-size: 32px;
+        line-height: 40px;
+        color: #000;
+        letter-spacing: -2px;
+    }
+    .main .section-confortable p,
+    .main .section-conformTeeth .bg-conform p {
+        padding: 2% 0;
+    }
+    .main .section-bulky .container-p {
+        padding: 2% 0;
+    }
+    .main .section-cpapReplace .container-p {
+        padding: 2% 0;
+    }
+    .main .section-compareProducts p,
+    .main .section-guarantee .container-p {
+        padding: 2% 0 4%;
+    }
+    .main .section-bestQuality .container-p {
+        padding: 2% 0 3%;
+    }
+    footer .footer-menu {
+        padding: 5% 0;
+    }
+    .main .check-wrapper .form-group-btn-primaty-order {
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .container-ul {
+        width: 100%;
+    }
+    .section-primary ul {
+        padding: 0 0 0 5%;
+        margin: 0;
+    }
+    .main .link-phone-block a {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .section-primary h1,
+    .section-contact h1,
+    .section-terms h1,
+    .section-privacy h1,
+    .section-shippingPolicy h1,
+    .section-thanks h1,
+    .section-checkout h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .main p,
+    .main ul,
+    .main ol,
+    .main .section-bulky .bulky-containerImg span,
+    .main .section-bulky .capaDemo-description,
+    .main .section-customFitted .capaDemo-description,
+    .main .section-customFitted h4,
+    .main .section-customFitted ul.cda-ul1,
+    .main .section-customFitted ul.cda-ul2 a,
+    .main .section-customFitted ul.cda-ul2 p,
+    .main .section-guarantee h4,
+    .main .section-guarantee ol,
+    .main .section-fdaCleared ul.fda-hadTo,
+    .main .section-fdaCleared ul.fda-snoring-slip-link,
+    .main .section-department ol,
+    .main .section-cdc ul,
+    .main .section-customers .name,
+    .main .section-customers .address {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+    .main .split-bar p {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .main .link-phone-block a,
+    .main .split-bar span {
+        font-size: 26px;
+        letter-spacing: -2px;
+    }
+    .main h2 {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -1px;
+    }
+    .main h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .main .lessBulky-img {
+        background: url(../images/lessBulky-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 75%;
+    }
+    .main .bulky-img {
+        background: url(../images/bulky-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 75%;
+    }
+    .main .section-cpapReplace .cpapReplace-img {
+        background: url(../images/cpapReplace-img.png) no-repeat center top;
+        background-size: 90%;
+        padding-top: 65%;
+    }
+    .main .section-compareProducts .fdaApnea-img {
+        background: url(../images/fdaApnea-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 90%;
+    }
+    .main .section-compareProducts .fdaSnoring-img {
+        background: url(../images/fdaSnoring-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 90%;
+    }
+    .main .section-bestQuality .value-img {
+        background: url(../images/value-img.png) no-repeat center top;
+        background-size: 100%;
+        padding-top: 70%;
+    }
+    .main .seeStudy-link a {
+        background: url(../images/icons/red-arrow.png) no-repeat left top;
+        padding-left: 30px;
+        background-position: 10px 3px;
+        color: #ff0000;
+        font-size: 20px;
+        background-size: 8%;
+    }
+    .main .section-customers .name {
+        padding-left: 0;
+    }
+    .section-faq h4 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .a-container {
+        word-wrap: break-word;
+    }
+    .section-contact .containerContent,
+    .section-terms .containerContent,
+    .section-privacy .containerContent,
+    .section-shippingPolicy .containerContent,
+    .section-thanks .containerContent {
+        padding: 0 0 3%;
+    }
+    .main .check-wrapper label {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .selectbox .select {
+        font-size: 18px;
+        padding: 6px 45px 0 10px;
+    }
+    .form-group .btn {
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 16px;
+    }
+    .section-checkout h4 {
+        font-size: 24px;
+    }
+    .totalPrice,
+    .section-checkout .prices-block {
+        font-size: 20px;
+    }
+    .main .payment-wrapper .count-product p {
+        font-size: 18px;
+        line-height: 44px;
+        letter-spacing: 0;
+        margin: 0;
+    }
+    .selectbox li {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 450px) {
+    .width100-450 {
+        width: 100%;
+    }
+    .main .cda-img {
+        background: url(../images/cda-img.png) no-repeat left top;
+        background-size: 85%;
+        padding-top: 65%;
+    }
+    .main .section-department .department-img {
+        background: url(../images/department-img.png) no-repeat left top;
+        background-size: 70%;
+        padding-top: 75%;
+    }
+    .main .section-department h3 {
+        text-align: left;
+    }
+    .main .cdc-img {
+        background: url(../images/cdc-img.png) no-repeat left top;
+        background-size: 69%;
+        padding-top: 57%;
+        margin-top: 5px;
+    }
+    .main .section-drOz .drOz-logo-img {
+        background: url(../images/drOz-logo-img.png) no-repeat left top;
+        background-size: 50%;
+        padding-top: 60%;
+    }
+    .main .section-foxNews .foxNews-logo-img {
+        background: url(../images/foxNews-logo-img.png) no-repeat left top;
+        background-size: 55%;
+        padding-top: 56%;
+    }
+    .main .section-foxNews h3.first {
+        margin: 3% 0;
+    }
+    .noPadding-450 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .main .payment-wrapper .count-product a.checkoutArrow {
+        background: url(../images/icons/checkoutArrow-xs.png) no-repeat center center;
+        padding-left: 35px;
+        padding-bottom: 10px;
+        background-size: 65%;
+    }
+    .noPadding-left-450 {
+        padding-left: 0;
+    }
+    .main .payment-wrapper .count-product {
+        height: 100%;
+    }
+    .width450-60 {
+        width: 60%;
+    }
+    .width450-30 {
+        width: 30%;
+    }
+    .main .payment-wrapper .count-product p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: 10px;
+    }
+    .totalPrice,
+    .section-checkout .prices-block {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 400px) {
+    .section-primary h1, .section-contact h1, .section-terms h1, .section-privacy h1, .section-shippingPolicy h1, .section-thanks h1, .section-checkout h1 {
+        font-size: 30px;
+        text-align: left;
+        line-height: 42px;
+        word-wrap: break-word;
+    }
+    .main p,
+    .main ul,
+    .main ol,
+    .main .section-bulky .bulky-containerImg span,
+    .main .section-bulky .capaDemo-description,
+    .main .section-customFitted .capaDemo-description,
+    .main .section-customFitted h4,
+    .main .section-customFitted ul.cda-ul1,
+    .main .section-customFitted ul.cda-ul2 a,
+    .main .section-customFitted ul.cda-ul2 p,
+    .main .section-guarantee h4,
+    .main .section-guarantee ol,
+    .main .section-fdaCleared ul.fda-hadTo,
+    .main .section-fdaCleared ul.fda-snoring-slip-link,
+    .main .section-department ol,
+    .main .section-cdc ul,
+    .main .section-customers .name,
+    .main .section-customers .address {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    .main .split-bar p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main .link-phone-block a,
+    .main .split-bar span {
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 34px;
+    }
+    .main h2 {
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    .main h3 {
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+    }
+    .main .section-confortable p,
+    .main .section-conformTeeth .bg-conform p,
+    .main .section-bulky p,
+    .main .section-cpapReplace p,
+    .main .section-customFitted ul.cda-ul2,
+    .main .section-guarantee p,
+    .main .section-foxNews h3.first,
+    .main .section-customers h4,
+    .section-faq h4,
+    .main .section-fdaCleared h5,
+    .main .section-FDA p {
+        text-align: left;
+    }
+    .paddingBottom-xs {
+        padding: 10px 0 50px;
+    }
+    .noPadding-400 {
+        padding: 0;
+    }
+    .main .section-guarantee ol,
+    .main .section-department ol {
+        padding-left: 22px;
+    }
+    footer .footer-menu ul li {
+        margin-right: 0;
+        display: block;
+    }
+    .main .check-wrapper {
+        padding: 0;
+    }
+}
+
+@media(max-width: 350px) {
+    .main .header-logo img {
+        width: 90%;
+    }
+    .totalPrice,
+    .section-checkout .prices-block,
+    .main .payment-wrapper .count-product p,
+    .main .check-wrapper label,
+    .selectbox li {
+        font-size: 14px;
+    }
+    .selectbox .select {
+        font-size: 16px;
+        padding: 9px 45px 0 10px;
+    }
+    .section-checkout h4 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 300px) {
+    .main .payment-wrapper .count-product p {
+        margin-left: 20px;
+    }
+    .form-group .btn {
+        font-size: 20px;
+    }
+}
+/*      /medias      */

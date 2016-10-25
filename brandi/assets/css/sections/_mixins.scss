@@ -1,0 +1,47 @@
+/*   medias   */
+@mixin small {
+  @media (min-width: #{$small}) {
+    @content;
+  }
+}
+
+@mixin xsmall-up {
+  @media (min-width: #{$xsmall}) {
+    @content;
+  }
+}
+
+@mixin medium-up {
+  @media (min-width: #{$medium}) {
+    @content;
+  }
+}
+
+@mixin xmedium-up {
+  @media (min-width: #{$xmedium}) {
+    @content;
+  }
+}
+
+@mixin large-up {
+  @media (min-width: #{$large}) {
+    @content;
+  }
+}
+
+@mixin xlarge-up {
+  @media (min-width: #{$xlarge}) {
+    @content;
+  }
+}
+
+/*   /medias   */
+
+@mixin background {
+  background: {
+    repeat: no-repeat;
+    position: 50% 50%;
+    size: cover;
+  }
+
+}

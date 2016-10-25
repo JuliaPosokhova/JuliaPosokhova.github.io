@@ -1,0 +1,1977 @@
+/*--------common styles--------*/
+/*.ui-view-container {
+    height: 100%;
+    min-height: 100%;
+}
+.gm-style .gm-style-mtc label,
+.gm-style .gm-style-mtc div {
+    font-weight: 400
+}
+
+.gm-style .gm-style-cc span,
+.gm-style .gm-style-cc a,
+.gm-style .gm-style-mtc div {
+    font-size: 10px
+}*/
+
+@font-face {
+    font-family: 'Handel Gothic';
+    src: url('fonts/Handel Gothic.eot');
+    src: url('fonts/Handel Gothic?#iefix') format('embedded-opentype'), url('fonts/Handel Gothic.woff') format('woff'), url('fonts/Handel Gothic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('fonts/myriad-web-pro.eot');
+    src: local('☺'), url('fonts/myriad-web-pro.woff') format('woff'), url('fonts/myriad-web-pro.ttf') format('truetype'), url('fonts/myriad-web-pro.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*@media print {
+    .gm-style .gmnoprint,
+    .gmnoprint {
+        display: none
+    }
+}
+
+@media screen {
+    .gm-style .gmnoscreen,
+    .gmnoscreen {
+        display: none
+    }
+}
+
+.gm-style {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none
+}*/
+
+html {
+    font-size: 14px;
+}
+html,
+body {
+    height: 100%;
+}
+
+.main {
+    min-height: 100%;
+}
+
+body {
+    outline: 0;
+}
+
+#navigation-header {
+    width: 100%;
+    z-index: 100;
+}
+/*.main-container {
+    padding-top: 40px;
+}*/
+a {
+    outline: 0;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited {
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Myriad Pro Regular';
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.no-pad-left {
+    padding-left: 0;
+}
+
+.no-pad-right {
+    padding-right: 0;
+}
+
+header .navbar-toggle {
+    border-color: #ffffff;
+}
+
+header .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+/*--------/common styles--------*/
+/*--------register styles--------*/
+
+.register, .connection {
+    background: #3b6fc8;
+    min-height: 100%;
+    margin-bottom: -4em;
+}
+.register .content-wrap, .login .content-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*.main.register:after {
+    content: "";
+    display: block;
+}
+
+footer, .register:after {
+}*/
+footer {
+    background: #3b6fc8;
+    width: 100%;
+}
+
+.register h2, .connection h2  {
+    font: 3.429rem/4.286rem 'Myriad Pro Regular';
+    text-align: center;
+    color: #fff;
+    padding-top: 10%;
+    margin: 0;
+}
+
+.register .register-input {
+    width: 100%;
+    height: 5rem;
+    border-radius: 0.357rem;
+    border: 0.071rem solid #000;
+    padding: 0.714rem 1.071rem;
+    font: 1.571rem/1.857rem 'Myriad Pro Regular';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.register a.submit-btn {
+    width: 100%;
+    height: 5rem;
+    margin-top: 3.571rem;
+    border-radius: 0.357rem;
+    background: #f8b908;
+    font: 2rem/1.571rem 'Myriad Pro Regular';
+    display: block;
+    text-align: center;
+    padding: 1.857rem 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register .submit-btn:hover,
+.register .submit-btn:active, .login a.submit-btn:hover, .login a.submit-btn:active {
+    background: #efa300;
+}
+
+.register .login-wrap {
+    text-align: center;
+    color: #fff;
+    font: 1.429rem/2.143rem 'Myriad Pro Regular';
+}
+
+.register a.log-in {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 0.071rem solid;
+}
+
+.register a.log-in:hover {
+    color: #f8b908;
+}
+
+.footer-register {
+    text-align: center;
+    color: #fff;
+    font: 1.714rem/3.429rem 'Myriad Pro Regular';
+    margin: 0;
+}
+/*--------/register styles--------*/
+/*--------home styles--------*/
+/*--------navbar styles--------*/
+
+.navbar {
+    height: 5rem;
+    background: #3b6fc8;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+
+.navbar-toggle {
+    display: inherit;
+    border: 0.071rem solid #fff;
+    margin: 1.214rem 1.071rem 1.286rem 0;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+.navbar span.menu {
+    padding-top: 1.786rem;
+    display: inline-block;
+    color: #fff;
+    font: 1.429rem/1.571rem 'Roboto';
+}
+
+.home.navbar p.logo {
+    font: 3.286rem/3.286rem 'Handel Gothic';
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-top: 0.929rem;
+}
+
+.navbar p.logo {
+    font: 1.857rem/2.143rem 'Myriad Pro Regular';
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 24px 0 15px;
+}
+
+.navbar p.logo.home-logo {
+    font: 30px/30px 'Handel Gothic';
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.navbar .user-photo {
+    display: table;
+    float: right;
+    margin: 16px 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown-toggle {
+    width: 80px;
+    height: 70px;
+    float: right;
+}
+
+.icon-wrap{
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #1a448c;
+    position: absolute;
+    right: 0;
+}
+/*--------/navbar styles--------*/
+
+.home .text-wrap {
+    width: 60%;
+    margin: 0 auto;
+    display: table;
+    padding: 40px 0 0;
+}
+
+.home .text-wrap p {
+    font: 28px/34px 'Myriad Pro Regular';
+    color: #666666;
+    margin: 0;
+}
+.home .text-wrap .selected-link {
+    cursor: pointer;
+    color: #3b6fc8;
+    font: 28px/34px 'Myriad Pro Regular';
+    margin: 0 0 7px;
+    border-bottom: 1px dashed;
+}
+.open .selected-link {
+    color: #1a448c!important;
+}
+
+.home .text-wrap .block-wrap {
+    padding: 20px 20px 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.home .block-wrap .plus-minus-img {
+    background: url(../img/plus-minus.svg) no-repeat right center;
+    background-size: 32%;
+    padding-top: 30%;
+}
+
+.home .block-wrap .store-img {
+    background: url(../img/store.svg) no-repeat right center;
+    background-size: 30%;
+    padding-top: 30%;
+}
+
+.home .block-wrap .about-img {
+    background: url(../img/about.svg) no-repeat right center;
+    background-size: 30%;
+    padding-top: 30%;
+}
+
+.home .block-wrap label {
+    padding: 7px 20px;
+    font: 25px/1.5 'Myriad Pro Regular';
+    color: #3b6fc8;
+    margin: 0;
+    float: left;
+}
+
+.home .link-wrap {
+    padding: 20px 15px;
+    background: #eee;
+    border-radius: 5px;
+    margin: 20px 0 30px;
+}
+.home .link-wrap p {
+    display: table;
+    margin: 0 auto;
+    font: 20px/28px 'Myriad Pro Regular';
+    color: #1a448c;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+}
+.dropdown-menu li {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu li a {
+    padding: 0;
+    cursor: context-menu;
+}
+
+.dropdown-menu li a img {
+    float: left;
+    width: 26px;
+    height: 26px;
+}
+
+.dropdown-menu li a label {
+    display: inline-block;
+    font: 19px/1.9 'Myriad Pro Regular';
+    color: #1a448c;
+    margin: 0;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.open>.dropdown-menu {
+    display: block;
+    position: relative;
+    width: 100%;
+    float: right;
+    margin: 0;
+    right: 0;
+}
+.dropdown-menu {
+    top: 72px;
+    box-shadow: none!important;
+    border-radius: 5px;
+    border: 3px solid #3b6fc8;
+}
+
+.block {
+    padding: 0 15px;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    background: #fff;
+}
+
+.block::after,
+.block::before {
+    content: '';
+    position: absolute;
+    right: 25px;
+    top: -13px;
+    width: 22px;
+    height: 22px;
+    z-index: -1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.block::before {
+    z-index: 1;
+    box-shadow: none;
+    border-top: 3px solid #3b6fc8;
+    border-left: 3px solid #3b6fc8;
+    background: #fff;
+}
+
+.dropdown-menu>li>a:hover {
+    background: #fff;
+}
+
+.modal-header h4 {
+    text-align: center;
+    font: 40px/40px 'Myriad Pro Regular';
+    color: #1a448c;
+}
+
+.modal-footer .btn {
+    display: table;
+    margin: 20px auto;
+}
+
+.modal-backdrop {
+    background-color: #89a9de;
+}
+
+.modal-backdrop.in {
+    opacity: .9;
+}
+
+.modal.in .modal-dialog {
+    margin: 10% auto;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 7px;
+    padding: 0 30px;
+    border: 3px solid #3b6fc8;
+}
+
+.modal-header {
+    padding: 25px 0 30px;
+}
+
+.modal-body {
+    padding: 30px 0 0;
+}
+
+.modal-body h5 {
+    font: 32px/20px 'Myriad Pro Regular';
+    color: #1a448c;
+    margin: 0;
+}
+
+.modal-body p {
+    font: italic 20px/24px 'Myriad Pro Regular';
+    color: #535353;
+    margin: 0;
+}
+
+.modal-body p.mail-link {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.modal-body .parents-link,
+.modal-body .mail-link a {
+    color: #777;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body .parents-link:hover,
+.modal-body .mail-link a:hover {
+    color: #333;
+}
+
+.modal-body .code-number {
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    color: #525252;
+    font: 500 normal 24px/29px 'Myriad Pro Regular';
+}
+
+.modal-body .code-clock {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #eee;
+}
+
+.modal-header .close {
+    position: absolute;
+    right: -25px;
+    top: -30px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font: 500 26px/24px Arial;
+    z-index: 5;
+    opacity: 1;
+    margin: 0;
+    text-shadow: none;
+    color: #1a448c;
+    background: #FFF;
+    border: 3px solid #3b6fc8;
+}
+
+.modal-footer {
+    padding: 60px 0;
+}
+
+.modal-footer .btn {
+    width: 30%;
+    height: 70px;
+    border-radius: 5px;
+    background: #f8b908;
+    font: 24px/26px 'Myriad Pro Regular';
+    display: block;
+    text-align: center;
+    padding: 23px 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto;
+    text-shadow: none;
+}
+
+.footer-register span {
+    font-family: 'Handel Gothic';
+}
+
+.btn-group {
+    position: absolute;
+    right: 0;
+}
+.mark-profile .btn-group {
+    position: initial;
+    left: 0!important;
+}
+.mark-profile .dropdown-toggle {
+    width: inherit;
+    height: inherit;
+    float: left;
+}
+.mark-profile .btn-group.open .dropdown-toggle {
+    left: 0;
+    background: transparent;
+    position: inherit;
+}
+.mark-profile .open>.dropdown-menu {
+    width: 60%;
+    position: absolute;
+}
+.mark-profile .dropdown-menu {
+    top: 50px;
+}
+.mark-profile .block::before {
+    left: 25px;
+}
+.mark-profile .dropdown-menu li a label {
+    padding-left: 0;
+}
+/*--------/home styles--------*/
+/*--------timeline styles--------*/
+
+.timeline .text-wrap {
+    padding: 40px 0 20px;
+    width: 60%;
+    display: table;
+    margin: 0 auto;
+}
+
+.timeline  h2, .store h2 {
+    margin: 0;
+    padding: 25px 0;
+    font: 25px/30px 'Myriad Pro Regular';
+    color: #707070;
+    text-align: center;
+}
+
+.timeline .text-wrap p {
+    font: 22px/26px 'Roboto';
+    color: #707070;
+    margin: 0;
+}
+
+.timeline p.day {
+    text-align: left;
+    font: 400 18px/26px 'Roboto';
+    color: #828282;
+    padding: 0 15px;
+    margin: 0;
+}
+
+.timeline span.time {
+    font: 500 22px/24px 'Roboto';
+    color: #333;
+}
+
+.timeline .number-plus {
+    font: 22px/24px Arial;
+    padding: 3px;
+    color: #327900;
+    border: 2px solid #327900;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.timeline span.number-minus {
+    font: 22px/24px Arial;
+    padding: 3px 6px;
+    color: #ff3e3e;
+    border: 2px solid #ff3e3e;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.timeline .poins-block p {
+    font: 22px/30px Arial;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.timeline .poins-block label {
+    font: 500 16px/18px 'Roboto';
+    color: #000;
+}
+
+.timeline .update-container {
+    border: 1px solid #1a448c;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.timeline .update-container a {
+    display: table;
+    margin: 20px auto;
+    color: #3b6fc8;
+    font: 28px/36px Arial;
+}
+
+.timeline .ava-container {
+    float: inherit;
+}
+
+.timeline .block-wrap {
+    padding-bottom: 40px;
+}
+
+.timeline .ava-info {
+    padding-left: 100px;
+}
+
+.timeline .ava-info .recorded {
+    font: 600 16px/20px 'Roboto';
+    color: #777;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.timeline .ava-info .name {
+    font: 500 22px/30px 'Roboto';
+    color: #333;
+    text-transform: uppercase;
+}
+/*--------/timeline styles--------*/
+/*--------store styles--------*/
+
+.store .main-container {
+    padding: 40px 0 0;
+} 
+/*.store h2{
+    font: 18px/26px 'Roboto';
+    color: #707070;
+    text-align: center;
+}*/
+
+.store .block-wrap {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+.store .block-wrap img {
+    height: 45px;
+    width: 45px;
+}
+.yellow-star {
+    background: url(../img/yellow-star.svg) no-repeat center center;
+    background-size: 73%;
+    padding-top: 74%;
+}
+
+.gray-star {
+    background: url(../img/gray-star.svg) no-repeat center center;
+    background-size: 73%;
+    padding-top: 74%;
+}
+
+.store .block-wrap .text-block {
+    padding-left: 80px;
+}
+.store .text-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.store .block-wrap .text-block .event-name {
+    font: 26px/34px Arial;
+    color: #3b6fc8;
+    margin: 0;
+}
+
+.store .block-wrap .text-block .points {
+    color: #444;
+    font: 20px/24px 'Roboto';
+    margin: 0;
+}
+
+.store .icon-container {
+    float: left;
+    width: 70px;
+}
+
+.store .block-wrap .link-wrap {
+    padding: 10px 0;
+    background: #eee;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.store .block-wrap .link-wrap p {
+    display: table;
+    margin: 0 auto;
+    font: 20px/20px 'Roboto';
+    color: #1a448c;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+}
+
+#myModal-store .modal-header {
+    border-bottom: none;
+} 
+#myModal-store .modal-body {
+    border-bottom: none;
+    padding: 0;
+}
+#myModal-store .modal-body p {
+    font: 24px/30px Arial;
+    color: #555;
+    margin: 0;
+}
+#myModal-store .modal-body p a {
+    color: #3a6ec7;
+}
+#myModal-store .modal-footer {
+    border-top: none;
+}
+/*--------/store styles--------*/
+/*--------about styles--------*/
+
+.back-icon-container {
+    float: left;
+}
+
+.about-content {
+    padding-top: 40px;
+}
+
+.about .text-wrap  {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about .text-wrap .block-wrap {
+    padding: 20px 20px 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.about .text-wrap .block-wrap a.arrow, .home .text-wrap .block-wrap a.arrow {
+    background: url(../img/arrow.svg) no-repeat left center;
+    display: block;
+    width: 30px;
+    margin: 0;
+    float: right;
+    padding: 24px 0;
+}
+
+.about .block-wrap label {
+    padding: 7px 20px;
+    font: 26px/1.5 Arial;
+    color: #3b6fc8;
+    margin: 0;
+    float: left;
+}
+
+.about .block-wrap .about-liveschool-img {
+    background: url(../img/about-liveschool-img.svg) no-repeat right center;
+    background-size: 34%;
+    padding-top: 32%;
+}
+
+.about .block-wrap .privacy-img {
+    background: url(../img/privacy-img.svg) no-repeat right center;
+    background-size: 30%;
+    padding-top: 32%;
+}
+
+.about .block-wrap .involved-img {
+    background: url(../img/involved-img.svg) no-repeat right center;
+    background-size: 30%;
+    padding-top: 32%;
+}
+a.back-arrow {
+    background: url(../img/back-icon.svg) no-repeat left center;
+    display: block;
+    width: 24px;
+    margin: 0;
+    padding: 17px 0;
+}
+.back {
+    font: 30px/36px Arial;
+    padding-left: 30px;
+    color: #3b6fc8;
+}
+
+.back-block {
+    padding: 15px 0 25px;
+}
+/*--------/about styles--------*/
+/*--------about_liveschool styles--------*/
+
+.about-liveschool h2, .privacy h2 {
+    font: 500 32px/44px 'Roboto';
+    color: #1a448c;
+}
+
+.about-liveschool p, .privacy p {
+    font: 24px/28px 'Arial';
+    color: #707070;
+}
+.about-liveschool .content-wrap {
+    padding: 0;
+} 
+.about-liveschool .text-wrap, .privacy .text-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+/*--------/about_liveschool styles--------*/
+/*--------login styles--------*/
+
+.login {
+    background: #3b6fc8;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.login h2 {
+    font: 48px/60px 'Roboto';
+    text-align: center;
+    color: #fff;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.login .enter-email,
+.login .enter-pass {
+    width: 100%;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    font: 22px/26px 'Roboto';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.login a.submit-btn {
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #f8b908;
+    font: 28px/22px 'Roboto';
+    display: block;
+    text-align: center;
+    padding: 26px 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login .login-wrap {
+    padding-top: 5%;
+    text-align: center;
+    color: #fff;
+    font: 24px/30px 'Roboto';
+}
+
+.login .log-in {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.login label {
+    font: 22px/26px 'Roboto';
+    color: #fff;
+    padding-top: 40px;
+}
+/*--------/login styles--------*/
+/*--------enter-code styles--------*/
+
+.enter-code {
+    background: #3b6fc8;
+    min-height: 100%;
+    margin-bottom: -4em;
+}
+
+.enter-code h2 {
+    font: 48px/60px 'Roboto';
+    text-align: center;
+    color: #fff;
+    padding-top: 10%;
+    margin: 0;
+}
+
+.enter-code input {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 14px 15px;
+    font: 40px/50px 'Roboto';
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.enter-code .login-wrap {
+    padding-top: 5%;
+    text-align: center;
+    color: #fff;
+    font: 24px/30px 'Roboto';
+}
+
+.enter-code .log-in {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.not-valid {
+    font: 32px/38px 'Roboto';
+    text-align: center;
+    color: #f8b908;
+    margin: 0;
+    padding-top: 35px;
+}
+/*--------/enter-code styles--------*/
+/*--------incorrect styles--------*/
+
+.incorrect {
+    background: #3b6fc8;
+    min-height: 100%;
+    margin-bottom: -4em;
+}
+
+.incorrect h2 {
+    font: 48px/60px 'Roboto';
+    text-align: center;
+    color: #fff;
+    padding-top: 10%;
+    margin: 0;
+}
+
+.incorrect .submit-btn {
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #f8b908;
+    font: 28px/22px 'Roboto';
+    display: block;
+    text-align: center;
+    padding: 26px 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*--------/incorrect styles--------*/
+
+footer .wrap {
+    padding: 0;
+    background: #3b6fc8;
+}
+/*--------create styles--------*/
+.create {
+    background: #3b6fc8;
+    min-height: 100%;
+    margin-bottom: -4em;
+}
+
+.create h2 {
+    font: 48px/60px 'Roboto';
+    color: #fff;
+    padding-top: 10%;
+    margin: 0;
+}
+
+.create .enter-email,
+.create .enter-pass {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    font: 22px/26px 'Roboto';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.create a.submit-btn {
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #f8b908;
+    font: 28px/22px 'Roboto';
+    display: block;
+    text-align: center;
+    padding: 26px 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create .login-wrap {
+    padding-top: 5%;
+    text-align: center;
+    color: #fff;
+    font: 24px/30px 'Roboto';
+}
+
+.create .log-in {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.create label {
+    font: 32px/36px 'Roboto';
+    color: #fff;
+    padding-top: 40px;
+}
+/*--------/create styles--------*/
+/*--------correct styles--------*/
+
+.correct {
+    background: #3b6fc8;
+    min-height: 100%;
+    margin-bottom: -4em;
+}
+
+.correct h2 {
+    font: 48px/60px 'Roboto';
+    color: #fff;
+    padding-top: 10%;
+    margin: 0;
+    text-align: center;
+}
+
+.correct .enter-email {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    font: 22px/26px 'Roboto';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.correct a.submit-btn {
+    width: 48%;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #f8b908;
+    font: 28px/22px 'Roboto';
+    display: block;
+    text-align: center;
+    padding: 26px 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    float: right;
+}
+
+.correct a.forgot-btn {
+    width: 48%;
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background: #ccc;
+    font: 28px/22px 'Roboto';
+    display: block;
+    text-align: center;
+    padding: 26px 0;
+    color: #555;
+    text-decoration: none;
+    float: left;
+    cursor: pointer;
+}
+
+.correct .login-wrap {
+    padding-top: 5%;
+    text-align: center;
+    color: #fff;
+    font: 24px/30px 'Roboto';
+}
+
+.correct .log-in {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.correct label {
+    font: 32px/36px 'Roboto';
+    color: #fff;
+}
+/* General styles for all menus */
+
+.cbp-spmenu {
+    background: #3b6fc8;
+    position: relative;
+    height: 100%;
+    border-right: 1px solid #3061b6;
+}
+
+.cbp-spmenu h3 {
+    color: #afdefa;
+    font-size: 1.9em;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    background: #0d77b6;
+}
+
+.cbp-spmenu a {
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+    background: #1a448c;
+    text-decoration: none;
+}
+
+.cbp-spmenu a:active {
+    background: #1a448c;
+    color: #47a3da;
+}
+
+.cbp-spmenu a {
+    border-bottom: 1px solid #3061b6;
+    padding: 1em;
+}
+/*--------connection styles--------*/
+.connection .sad-smile {
+    font: 140px/160px 'Roboto';
+    text-align: center;
+    color: #fff;
+    /*    transform: rotate(90deg);*/
+}
+.main.connection{
+    margin-bottom: -60px;
+}
+/*--------/connection styles--------*/
+/*--------medias styles--------*/
+
+@media (max-width: 991px) {
+    .home .text-wrap .block-wrap a.arrow 
+    .about .text-wrap .block-wrap a.arrow {
+        background: url(../img/arrow-icon.png) no-repeat right center;
+        margin: 0;
+        float: right;
+        padding: 18px 0;
+    }
+    .no-pad-left-sm {
+        padding-left: 0;
+    }
+    .no-pad-right-sm {
+        padding-right: 0;
+    }
+    .home .text-wrap p.second {
+        text-align: right;
+    }
+    .home .block-wrap .plus-minus-img,
+    .home .block-wrap .store-img,
+    .home .block-wrap .about-img,
+    .about .block-wrap .about-liveschool-img,
+    .about .block-wrap .privacy-img,
+    .about .block-wrap .involved-img, .yellow-star, .gray-star {
+        background-size: initial;
+        padding-top: 55%;
+    }
+    .modal.in .modal-dialog {
+        width: auto;
+        padding: 0 10%;
+    }
+    .back-block {
+        padding: 15px 0 20px;
+    }
+    .timeline .ava-info {
+        display: inline-table;
+        padding-left: 0;
+    }
+    .timeline .poins-block {
+        padding-left: 0;
+    }
+    .login h2 {
+        padding-top: 3%;
+    }
+    .home .content-wrap {
+        padding: 0;
+    }
+    .store .icon-container img {
+        width: 40px;
+        height: 40px;
+    }
+    .store .block-wrap .text-block {
+        padding-left: 50px;
+    }
+    .store .block-wrap .text-block .event-name {
+        font: 18px/26px Arial;;
+    }
+    .store .block-wrap .text-block .points {
+        font: 16px/20px 'Roboto';
+    }
+    /*    .store h2{
+            font: 16px/24px 'Roboto';
+        }*/
+    .store .block-wrap .link-wrap a {
+        font: 14px/18px 'Roboto';
+    }
+    .main-container {
+        padding: 0; 
+    }
+    .about .content-wrap {
+        padding: 0;
+    }
+    .about .block-wrap label, .home .block-wrap label {
+        font: 18px/1.5 Arial;
+    }
+    /*    .navbar p.logo {
+            font: 26px/50px 'Arial';
+        }*/
+    .about-liveschool .content-wrap {
+        padding: 0;
+    }
+    .back-icon-container {
+        padding-top: 9px;
+    }
+    .back-icon-container img {
+        width: 15px;
+        height: 20px;
+        float: right;
+    }
+    .back {
+        padding-left: 20px;
+        font: 24px/40px Arial;
+    }
+    .about .block-wrap label {
+        padding: 8px 0px 0px 5px;
+    }
+    .about .text-wrap .block-wrap a.arrow, .home .text-wrap .block-wrap a.arrow {
+        padding: 22px 0; 
+    }
+    a.back-arrow {
+        width: 20px;
+        margin-right: 5px;
+        padding: 11px 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .no-pad-xs {
+        padding: 0;
+    }
+    .no-pad-right-xs {
+        padding-right: 0;
+    }
+    .home .text-wrap{
+        padding: 20px 15px;
+        width: 100%;
+    }
+    .about-liveschool .text-wrap  {
+        padding: 0;
+        width: 100%;
+    }
+    .about .text-wrap {
+        padding: 0;
+        width: 100%;
+    }
+    .home .text-wrap .block-wrap,
+    .about .text-wrap .block-wrap {
+        padding: 15px;
+    }
+    .home .block-wrap .plus-minus-img, .home .block-wrap .store-img, .home .block-wrap .about-img, .about .block-wrap .about-liveschool-img,     .about .block-wrap .privacy-img,     .about .block-wrap .involved-img {
+        background-size: initial;
+        /*        padding-top: 70%;*/
+        background-position: center center;
+    }
+    .modal-footer .btn {
+        width: 60%;
+    }
+    .code-clock h5 {
+        width: 50%;
+        float: left;
+    }
+    .modal-body .code-number {
+        width: 50%;
+        padding-bottom: 24px;
+        float: left;
+    }
+    .modal.in .modal-dialog {
+        margin: 6% auto;
+    }
+    .timeline .poins-block {
+        padding-left: 0;
+    }
+
+    .about .block-wrap label {
+        padding: 10px 10px 0 15px;
+    }
+    .back-block {
+        padding: 0;
+    }
+    .timeline .text-wrap .name-xs {
+        margin: 0;
+        font: 500 24px/24px 'Roboto';
+        color: #333;
+    }
+    .timeline .text-wrap {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .timeline .block-wrap {
+        padding: 30px 0 20px;
+        padding: 30px 0 0px;
+        border-bottom: 1px solid #ccc;
+    }
+    .timeline span.time {
+        font: 500 24px/24px 'Roboto';
+        color: #333;
+        margin-bottom: 15px;
+        display: block;
+    }
+    .store .text-wrap {
+        padding: 0 15px;
+        width: 100%;
+    }
+    .title {
+        background: #e7e7e7;
+        margin: 0 0 25px;
+        padding: 10px 15px;
+        border-bottom: 1px solid #d2d2d2;
+    }
+    .timeline .title h2, .store h2 {
+        font: 22px/38px 'Myriad Pro Regular';
+        margin: 0;
+        padding: 0;
+    }
+    .about-liveschool h2, .about-liveschool p {
+        padding: 0 15px;
+    }
+    .block {
+        padding: 0;
+    }
+    .dropdown-menu li a label {
+        font: 16px/36px Arial;
+        padding-left: 10px;
+    }
+    .dropdown-menu li {
+        padding: 10px 15px;
+    }
+    .navbar p.logo{
+        font: 20px/20px 'Arial';
+        text-align: center;
+        padding: 26px 0 0;
+    }
+    .home .navbar p.logo  {
+        font: 20px/20px 'Handel Gothic';
+        text-align: center;
+        padding: 26px 0 0;
+        display: none;
+    }
+    .register .login-wrap {
+        font: 16px/24px 'Roboto';
+        padding-top: 10%;
+    }
+    .register h2, .login h2 {
+        font: 34px/44px 'Roboto';
+    }
+    .register .register-input, .login .enter-email, .login .enter-pass {
+        height: 56px;
+    }
+    .register a.submit-btn, .login a.submit-btn {
+        height: 56px;
+        font: 22px/22px 'Roboto';
+        padding: 18px 0;
+    }
+
+    .login label {
+        padding-top: 15px;
+    }
+    .footer-register {
+        font: 18px/26px 'Roboto';
+    }
+    footer .wrap {
+        background: #3b6fc8;
+        width: 100%;
+        height: 2em;
+    }
+    .main.login, .main.register {
+        margin-bottom: -30px;
+    }
+    .ava-container, .timeline .ava-info {
+        display: none;
+    }
+    .home .block-wrap label, .about .block-wrap label, .home .block-wrap label {
+        padding: 11px 20px;
+    }
+    .btn-group.open .dropdown-toggle {
+        position: absolute;
+        right: 0;
+    }
+    .width-landscape-70 {
+        padding: 0;
+    }
+    .store .text-wrap .width-landscape {
+        padding: 0;
+    }
+    .store .block-wrap {
+        border-radius: 0;
+        padding: 30px 15px;
+        margin-bottom: 0;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+    .store .main-container {
+        padding: 0;
+    }
+    .timeline .update-container {
+        margin: 45px 0 20px;
+    }
+    .create {
+        margin-bottom: -3em;
+    }
+    .about-liveschool .text-wrap, .privacy .text-wrap {
+        width: 100%;
+    }
+    .privacy .content {
+        padding: 0 15px;
+    }
+    /*    .store h2 {
+            margin: 0;
+        }*/
+    .create h2, .enter-code h2 {
+        font: 30px/38px 'Myriad Pro Regular';
+        padding: 3% 0 0 ;
+    }
+    .create .login-wrap, .enter-code .login-wrap {
+        font: 20px/26px 'Myriad Pro Regular';
+    }
+    .block-wrap .icon-container {
+        float: left;
+        width: 70px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 550px) {
+    /*    .home .block-wrap .plus-minus-img,
+        .home .block-wrap .store-img,
+        .home .block-wrap .about-img,
+        .about .block-wrap .about-liveschool-img,
+        .about .block-wrap .privacy-img,
+        .about .block-wrap .involved-img {
+            background-size: 70%;
+            padding-top: 70%;
+        }*/
+    .block-wrap .icon-container {
+        width: 60px;
+    }
+    .home .block-wrap label,
+    .about .block-wrap label {
+        padding: 4px 10px 0 15px;
+        font: 15px/32px Arial;
+    }
+    /*    .home .text-wrap p {
+            font: 26px/36px 'Roboto';
+            padding-bottom: 20px;
+        }*/
+    .dropdown-menu li a label {
+        font: 18px/32px Arial;
+    }
+    .modal-header {
+        padding: 25px 0 15px;
+    }
+    .modal-header h4 {
+        font: 30px/40px Arial;
+    }
+    .modal-body h5 {
+        font: 26px/26px Arial;
+    }
+    .modal-body .code-number {
+        font: 500 normal 22px/26px Arial;
+    }
+    .modal-body p {
+        text-align: center;
+        word-wrap: break-word;
+        font: italic 18px/24px Arial;
+    }
+    .modal.in .modal-dialog {
+        margin: 10% auto 0;
+    }
+    .correct h2 {
+        font: 40px/52px 'Roboto';
+    }
+    .login label,
+    .create label,
+    .correct label {
+        font: 14px/16px 'Roboto';
+    }
+    .incorrect h2 {
+        font: 32px/44px 'Roboto';
+    }
+    .store .icon-container img {
+        width: 60px;
+        height: 60px;
+    }
+    .store .block-wrap .text-block {
+        padding-left: 75px;
+    }
+    .store .block-wrap .text-block .event-name {
+        font: 28px/30px Arial;
+    }
+    .store .block-wrap .text-block .points {
+        font: 24px/34px 'Roboto';
+    }
+    /*    .store h2 {
+            font: 22px/38px 'Myriad Pro Regular';
+        }*/
+    .store .block-wrap .link-wrap a {
+        font: 20px/24px 'Roboto';
+        padding: 5px 15px;
+    }
+    .no-pad-550 {
+        padding: 0;
+    }
+    .store .block-wrap {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+    .register a.log-in {
+        display: block;
+        border: none;
+        text-decoration: underline;
+    }
+    .home .text-wrap p, .home .text-wrap .selected-link {
+        font: 21px/30px 'Myriad Pro Regular';
+        padding: 0;
+    }
+    .create label {
+        padding-top: 0;
+    }
+    .create a.submit-btn {
+        font: 22px/22px 'Myriad Pro Regular';
+        height: 56px;
+        padding: 20px 0;
+    }
+    .create-group {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    .modal-content {
+        padding: 0 15PX;
+    }
+    .enter-code input {
+        height: 68px;
+        padding: 20px 15px;
+        font: 30px/39px 'Roboto';
+        margin-top: 30px;
+    }
+    .incorrect .submit-btn {
+        height: 60px;
+        margin-top: 40px;
+        font: 22px/30px 'Roboto';
+        padding: 16px 0;
+    }
+    .correct a.forgot-btn,
+    .correct a.submit-btn {
+        width: 100%;
+        height: 45px;
+        font: 18px/5px 'Roboto';
+    }
+    .correct a.forgot-btn {
+        margin-top: 26px;
+    }
+    .correct .enter-email {
+        height: 50px;
+    }
+    .store .icon-container img {
+        width: 50px;
+        height: 50px;
+    }
+    .store .block-wrap .text-block .event-name {
+        font: 24px/24px Arial;
+    }
+    .store .block-wrap .text-block .points {
+        font: 20px/28px 'Roboto';
+    }
+    .store .block-wrap .text-block {
+        padding-left: 60px;
+    }
+    .register a.log-in {
+        display: block;
+        border-bottom: none;
+        text-decoration: underline;
+    }
+    .about .text-wrap .block-wrap a.arrow, .home .text-wrap .block-wrap a.arrow {
+        display: block;
+        width: 25px;
+        margin: 0;
+        float: right;
+        padding: 34px 0 0;
+        background-size: 75%;
+    }
+    .create .log-in, .enter-code .log-in {
+        display: block;
+        border-bottom: transparent;
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 300px) {
+    .width-240 {
+        width: 100%;
+        padding: 0;
+    }
+    .home .text-wrap p.second {
+        text-align: left;
+    }
+    .home .text-wrap p {
+        padding-bottom: 10px;
+    }
+    .navbar {
+        margin-bottom: 0;
+    }
+    .home .text-wrap .block-wrap,
+    .about .text-wrap .block-wrap {
+        padding: 10px 7px;
+    }
+    .home .block-wrap .plus-minus-img,
+    .home .block-wrap .store-img,
+    .home .block-wrap .about-img,
+    .about .block-wrap .about-liveschool-img,
+    .about .block-wrap .privacy-img,
+    .about .block-wrap .involved-img {
+        width: 25px;
+        padding-top: 25px;
+    }
+    .home .text-wrap .block-wrap a.arrow,
+    .about .text-wrap .block-wrap a.arrow {
+        width: 16px;
+        padding-top: 26px;
+        margin: 0;
+    }
+    .home .block-wrap label,
+    .about .block-wrap label {
+        font: 14px/26px Arial;
+        padding: 0px 5px 0 6px;
+    }
+    .modal-footer .btn {
+        width: 100%;
+        height: 60px;
+        padding: 17px 0;
+    }
+    .modal-header .close {
+        right: -15px;
+        top: -20px;
+        padding: 7px 10px;
+        font: 500 20px/20px Arial;
+    }
+    .modal-header h4 {
+        font: 26px/30px Arial;
+    }
+    .modal-header {
+        padding: 15px 0;
+    }
+    .modal-body {
+        padding: 15px 0 0;
+    }
+    .modal.in .modal-dialog {
+        padding: 0 5%;
+    }
+    .modal-body .code-clock {
+        padding-bottom: 20px;
+    }
+    .modal-body p.mail-link {
+        padding: 20px 0;
+    }
+    .modal-footer {
+        padding: 30px 0;
+    }
+    .login label,
+    .create label,
+    .correct label {
+        font: 18px/24px 'Roboto';
+        padding-top: 25px;
+    }
+    .login .enter-email,
+    .login .enter-pass,
+    .create .enter-email,
+    .create .enter-pass
+    {
+        height: 50px;
+    }
+    .login .enter-email,
+    .enter-code .login-wrap,
+    .create .enter-email
+    {
+        font: 18px/30px 'Roboto';
+    }
+    .footer-register {
+        font: 16px/26px 'Roboto';
+    }
+    .login h2,
+    .enter-code h2,
+    .create h2,
+    .correct h2 {
+        font: 28px/36px 'Roboto';
+    }
+    .incorrect h2 {
+        font: 24px/28px 'Roboto';
+    }
+    .login a.submit-btn,
+    .create a.submit-btn {
+        height: 45px;
+        font: 18px/3px 'Roboto';
+        margin-top: 40px;
+    }
+    .login .login-wrap,
+    .create .login-wrap {
+        font: 20px/28px 'Roboto';
+    }
+    .create .enter-email,
+    .create .enter-pass,
+    .login .enter-email,
+    .login .enter-pass {
+        height: 50px;
+    }
+    .open>.dropdown-menu {
+        width: 90%;
+    }
+    .block-wrap .icon-container {
+        width: 30px;
+    }
+}
+
+@media (min-device-width: 240px) and (max-device-width: 767px) and (orientation:portrait) {
+    .home .content-wrap {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .store .width1 {
+        width: 100%;
+    }
+    .about .width2 {
+        width: 100%;
+    }
+    .about-liveschool .width3 {
+        width: 100%;
+    }
+    .timeline .text-wrap {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .store .main-container {
+        padding: 0;
+    }
+    .store .text-wrap {
+        width: 100%;
+    }
+    .timeline p.day {
+        display: none;
+    }
+    .register .content-wrap, .login .content-wrap {
+        width: 60%;
+    }
+    .back-icon-container{
+        padding: 9px 5px 0 0;
+    }
+    .about .content {
+        padding: 0px 15px 25px;
+    }
+    .navbar p.logo.home-logo {
+        display: none;
+    }
+}
+
+@media (min-device-width: 240px) and (max-device-width: 767px) and (orientation:landscape){
+    .register a.submit-btn, .login a.submit-btn {
+        display: table;
+        margin: 5% auto 1%;
+        height: 60px;
+        font: 24px/30px 'Roboto';
+        padding: 15px 0;
+    }
+    .register h2, .register .login-wrap {
+        padding-top: 0;
+    }
+
+    .store .main-container {
+        padding-top: 0;
+    }
+    .store .icon-container img {
+        width: 35px;
+        height: 35px;
+    }
+    .store .block-wrap .text-block {
+        padding-left: 45px;
+    }
+    .store .block-wrap .text-block .event-name {
+        font: 24px/24px Arial;
+    }
+    .store .block-wrap .text-block .points {
+        font: 18px/26px 'Roboto';
+    }
+    .store .text-wrap p {
+        font: 18px/26px 'Roboto';
+    }
+    .store .block-wrap .link-wrap a {
+        font: 16px/18px 'Roboto';
+    }
+    .title {
+        background: #fff;
+        border-bottom: none;
+    }
+    .back-block {
+        background: #fff;
+        border-bottom: none;
+        /*        padding: 0 15px;*/
+    }
+    .login label {
+        padding-top: 15px;
+        display: table;
+        margin: 0 auto;
+        font: 20px/16px 'Roboto';
+    }
+    .login .enter-email, .login .enter-pass {
+        margin: 2% auto 0;
+    }
+    .login h2 {
+        font: 26px/30px 'Roboto';
+    }
+    .home .navbar p.logo {
+        display: block;
+    }
+
+    .ava-container, .timeline .ava-info {
+        display: block;
+    }
+    .ava-container {
+        padding-right: 10px;
+    }
+    .width-landscape-70 {
+        width: 70%;
+        float: left;
+    }
+    .width-landscape-30 {
+        width: 30%;
+        float: left;
+    }
+    .timeline .ava-info .recorded {
+        font: 600 14px/16px 'Roboto';
+    }
+    .timeline .ava-info .name {
+        font: 500 16px/20px 'Roboto';
+    }
+    .timeline .poins-block label {
+        font: 500 16px/20px 'Roboto';
+    }
+    .timeline .text-wrap .name-xs {
+        font: 500 20px/24px 'Roboto';
+    }
+    .timeline span.time {
+        font: 500 20px/20px 'Roboto';
+    }
+    .timeline .text-wrap p {
+        font: 20px/24px 'Roboto';
+    }
+    .timeline .update-container a {
+        display: table;
+        margin: 15px auto;
+        color: #3b6fc8;
+        font: 24px/24px Arial;
+    }
+    .home .content-wrap {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+    }
+    .store .width1 {
+        width: 100%;
+    }
+    .about .width2 {
+        width: 100%;
+    }
+    .about-liveschool .width3 {
+        width: 100%;
+    }
+    .store .block-wrap {
+        padding: 15px 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .timeline .text-wrap .name-xs {
+        display: none;
+    }
+    .correct h2 {
+        padding-top: 0;
+    }
+    .create {
+        margin-bottom: 0;
+    }
+    .login {
+        margin-bottom: 0;
+    }
+}
+/*--------medias styles--------*/
