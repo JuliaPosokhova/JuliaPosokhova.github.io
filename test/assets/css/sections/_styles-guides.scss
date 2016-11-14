@@ -1,0 +1,61 @@
+/*   typography styles   */
+h1 {
+  font: 30px/42px $font-black;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include medium-up {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 44px;
+  }
+
+}
+
+h2 {
+  font: 26px/38px $font-black;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+
+  @include xmedium-up {
+    font-size: 45px;
+    line-height: 60px;
+    margin-bottom: 80px;
+  }
+}
+
+
+h5 {
+  font: 20px/24px $font-semibold;
+  margin-bottom: 15px;
+
+  @include xmedium-up {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+h6 {
+  font: 20px/28px $font-semibold;
+  margin-bottom: 30px;
+  color: $color-yellow;
+  text-align: center;
+
+  @include medium-up {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+}
+
+a {
+  &:visited,
+  &:active {
+    color: $color-dark-gray;
+  }
+}
+
+/*   /typography styles   */

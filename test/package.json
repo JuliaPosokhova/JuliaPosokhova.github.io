@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-confirm": "^1.0.4",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "0.0.14",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.4"
+  },
+  "dependencies": {
+    "gulp-livereload": "^3.8.1"
+  },
+  "engines": {
+    "node": "0.10.20"
+  }
+}
