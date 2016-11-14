@@ -406,7 +406,7 @@ h6 {
 }
 
 a:visited, a:active {
-  color: #434149;
+  color: #434149 !important;
 }
 
 /*   /typography styles   */
@@ -803,16 +803,4 @@ body > .wrapper {
   .container {
     width: 1170px;
   }
-}
-
-.no-dev .team .items .item .hover-info {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility .5s, opacity .5s;
-  background-color: rgba(14, 180, 147, 0.95);
 }
