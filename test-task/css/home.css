@@ -629,6 +629,7 @@ a:visited, a:active {
   border: 1px dashed transparent;
   transition: border-color .5s;
   border-radius: 15px;
+  color: #434149;
 }
 @media (min-width: 768px) {
   .slides-carousel .slides-block .slide-item .description {
