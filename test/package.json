@@ -4,17 +4,14 @@
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-confirm": "^1.0.4",
-    "gulp-imagemin": "^3.1.1",
+    "gulp-imagemin": "^3.0.3",
     "gulp-jsmin": "^0.1.5",
     "gulp-livereload": "^3.8.1",
     "gulp-minify": "0.0.14",
-    "gulp-ruby-sass": "^2.1.1",
-    "gulp-uglify": "^1.5.4",
-    "node-expat": ">=1.6.1",
-    "request": ">=2.9.0"
+    "gulp-ruby-sass": "^2.1.0",
+    "gulp-uglify": "^1.5.4"
   },
   "dependencies": {
-    "debug-log": "^1.0.1",
     "gulp-livereload": "^3.8.1"
   }
 }
