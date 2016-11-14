@@ -14,4 +14,8 @@
   "dependencies": {
     "gulp-livereload": "^3.8.1"
   }
+  ,
+  "engines": {
+    "node": "0.10.20"
+  }
 }
