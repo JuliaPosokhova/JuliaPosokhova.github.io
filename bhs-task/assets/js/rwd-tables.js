@@ -1,34 +1,3 @@
-var MainTable = {
-    init: function () {
-        this.responsiveTable();
-        this.tooltip();
-        this.print();
-    },
-    responsiveTable: function () {
-        $('.table-responsive').responsiveTable({});
-    },
-    tooltip: function () {
-        if ($(window).width() >= 1200) {
-            $('.tooltip-parent').tooltip({
-                placement: "bottom"
-            });
-        }
-        $('.tooltip-parent').click(function() {
-            $(this).toggleClass('opened');
-        });
-    }
-    ,
-    print: function () {
-        $('.print-btn').on('click', function () {
-            window.print();
-        });
-    }
-};
-
-$(document).ready(function () {
-    MainTable.init();
-});
-
 /*!
  * Responsive Tables v5.3.1 (http://gergeo.se/RWD-Table-Patterns)
  * This is an awesome solution for responsive tables with complex data.

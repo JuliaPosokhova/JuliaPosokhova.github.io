@@ -1,0 +1,113 @@
+@media print {
+  @page {
+    size: A4 landscape;
+  }
+
+  .table-section {
+    > *:not(.for-print) {
+      display: none !important;
+    }
+  }
+
+  .for-print {
+    display: block !important;
+  }
+
+  .btn-toolbar,
+  .print-btn,
+  .tooltip,
+  .sticky-table-header {
+    display: none !important;
+  }
+
+  .sticky-table-header {
+    visibility: hidden !important;
+    position: relative;
+  }
+
+  .collapse {
+    display: table-row;
+  }
+
+  *,
+  *:before,
+  *:after {
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: none !important;
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+
+  select {
+    background: #fff !important;
+  }
+
+  .btn > .caret,
+  .dropup > .btn > .caret {
+    border-top-color: #000 !important;
+  }
+
+  .label {
+    border: 1px solid #000;
+  }
+
+  .table {
+    border-collapse: collapse !important;
+  }
+
+  .table td,
+  .table th {
+    background-color: #fff !important;
+    font-size: 12px !important;
+  }
+
+  .table tr:nth-child(even) td {
+    border-width: 0 1px 1px 0;
+  }
+
+  .table-bordered th,
+  .table-bordered td {
+    border: 1px solid #ddd !important;
+  }
+
+}
