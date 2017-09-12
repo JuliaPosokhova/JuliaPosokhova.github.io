@@ -2,91 +2,91 @@
   {
     "projectName": "Food Menu Flyer Template",
     "category": "Graphic Design",
-    "backgroundImage": "assets/images/project01.jpg",
+    "backgroundImage": "images/project01.jpg",
     "size": "big"
   },
   {
     "projectName": "Donec sollicitudin molestie",
     "category": "Illustration",
-    "backgroundImage": "assets/images/project02.jpg",
+    "backgroundImage": "images/project02.jpg",
     "size": "default"
   },
   {
     "projectName": "Curabitur non nulla",
     "category": "Mobile Application",
-    "backgroundImage": "assets/images/project03.jpg",
+    "backgroundImage": "images/project03.jpg",
     "size": "default"
   },
   {
     "projectName": "Nulla quis lorem",
     "category": "Mobile Application",
-    "backgroundImage": "assets/images/project05.jpg",
+    "backgroundImage": "images/project05.jpg",
     "size": "default"
   },
   {
     "projectName": "Sed porttitor lectus nibh",
     "category": "Web Site",
-    "backgroundImage": "assets/images/project07.jpg",
+    "backgroundImage": "images/project07.jpg",
     "size": "big"
   },
   {
     "projectName": "Sed porttitor lectus nibh",
     "category": "Web Site",
-    "backgroundImage": "assets/images/project04.jpg",
+    "backgroundImage": "images/project04.jpg",
     "size": "default"
   },
   {
     "projectName": "Vestibulum ante ipsum primis",
     "category": "Illustration",
-    "backgroundImage": "assets/images/project06.jpg",
+    "backgroundImage": "images/project06.jpg",
     "size": "default"
   },
   {
     "projectName": "Food Menu Flyer Template",
     "category": "Graphic Design",
-    "backgroundImage": "assets/images/project01.jpg",
+    "backgroundImage": "images/project01.jpg",
     "size": "big"
   },
   {
     "projectName": "Donec sollicitudin molestie",
     "category": "Illustration",
-    "backgroundImage": "assets/images/project02.jpg",
+    "backgroundImage": "images/project02.jpg",
     "size": "default"
   },
   {
     "projectName": "Curabitur non nulla",
     "category": "Mobile Application",
-    "backgroundImage": "assets/images/project03.jpg",
+    "backgroundImage": "images/project03.jpg",
     "size": "default"
   },
   {
     "projectName": "Sed porttitor lectus nibh",
     "category": "Web Site",
-    "backgroundImage": "assets/images/project04.jpg",
+    "backgroundImage": "images/project04.jpg",
     "size": "default"
   },
   {
     "projectName": "Nulla quis lorem",
     "category": "Mobile Application",
-    "backgroundImage": "assets/images/project05.jpg",
+    "backgroundImage": "images/project05.jpg",
     "size": "default"
   },
   {
     "projectName": "Vestibulum ante ipsum primis",
     "category": "Illustration",
-    "backgroundImage": "assets/images/project06.jpg",
+    "backgroundImage": "images/project06.jpg",
     "size": "default"
   },
   {
     "projectName": "Nulla quis lorem",
     "category": "Mobile Application",
-    "backgroundImage": "assets/images/project05.jpg",
+    "backgroundImage": "images/project05.jpg",
     "size": "default"
   },
   {
     "projectName": "Vestibulum ante ipsum primis",
     "category": "Illustration",
-    "backgroundImage": "assets/images/project06.jpg",
+    "backgroundImage": "images/project06.jpg",
     "size": "default"
   }
 ]
