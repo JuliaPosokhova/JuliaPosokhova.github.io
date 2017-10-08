@@ -172,7 +172,7 @@ h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform
 .contact-info {overflow: hidden; display: table-cell; vertical-align: middle; width: 100%;}
 .contact-info a {color: #212121;}
 .contact-info a:hover{color:#ff6e40; text-decoration:none;}
-.contact-info a:visited {color: #212121; text-decoration:none;}
+.contact-info a:focus {color: #212121; text-decoration:none;}
 #map {width: 100%; height: 400px;
 }
 @media only screen and (min-width: 768px) {
