@@ -20,17 +20,14 @@ h4 {font: 500 20px/24px 'Montserrat', sans-serif; text-transform: uppercase;}
 h5 {font: 500 18px/24px 'Montserrat', sans-serif; text-transform: uppercase;}
 h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform: uppercase;}
 .btn {font: 14px/20px 'Montserrat', sans-serif; text-transform: uppercase; height: 50px; border: 2px solid #ff6e40; width: 190px; text-decoration: none; color: #fff; margin: 0 auto; padding: 13px 15px; display: inline-block; -webkit-transition: background-color 0.3s, color 0.3s; transition: background-color 0.3s, color 0.3s;}
+.btn:hover {text-decoration: none; color: #fff;}
 .btn:active {background-color: #ff6e40;}
-.btn.btn-dark {
-  font-weight: 500;
-  color: #212121;
-  border-color: #212121;
-}
+.btn.btn-dark {font-weight: 500; color: #212121; border-color: #212121;}
 @media only screen and (min-width: 992px) {
   h1 {font-size: 42px; line-height: 48px;}
   h2 {font-size: 30px; line-height: 36px;}
   .btn:hover {background-color: #ff6e40;}
-  .btn.btn-dark:hover {background-color: #212121; color: #fff;}
+  .btn.btn-dark:hover {background-color: #212121; color: #fff; text-decoration: none;}
 }
 @media only screen and (min-width: 1200px) {
   h1, h2 {letter-spacing: 1px;}
@@ -53,6 +50,7 @@ h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform
 #main-header.sticky .main-nav a:hover {color: #212121;}
 .header-holder {padding: 10px 20px; overflow: hidden;}
 .header-logo {display: block; text-transform: uppercase; font: 500 32px/32px 'Montserrat', sans-serif; letter-spacing: .5px; text-decoration: none; float: left; overflow: hidden; color: #212121;}
+.header-logo:hover {text-decoration: none; color: initial; }
 .header-logo span {padding: 0 8px; border: 2px solid #212121; line-height: 36px; display: inline-block;}
 .menu-btn {height: 22px; position: relative; float: right; width: 30px; z-index: 100; overflow: hidden; top: 9px; text-indent: -9999px;}
 .menu-btn span {width: 30px; height: 4px; background-color: #ff6e40; left: 0; top: 9px; position: absolute; border-radius: 3px;}
@@ -148,6 +146,7 @@ h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform
 .work-item:after {content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 1; background-color: #757575; opacity: .7;}
 .show-icon {width: 60px; height: 60px; border-radius: 50%; background-color: #ff6e40; position: absolute; z-index: 2; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); top: 74px; color: #fff; font-size: 30px; text-align: center; padding: 15px 8px; -webkit-transition: background-color 0.3s; transition: background-color 0.3s;}
 .show-icon:active {background-color: #212121;}
+.show-icon:hover {text-decoration: none; color: #fff;}
 .work-description {background-color: #f4f4f4; position: absolute; width: 100%; bottom: 0; height: 80px; overflow: hidden; padding: 10px 20px; z-index: 2;}
 .work-description h5 {color: #ff6e40;}
 .work-description p {margin: 0;}
