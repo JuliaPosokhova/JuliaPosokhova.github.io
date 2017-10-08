@@ -167,10 +167,10 @@ h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform
 /*--- Our works section styles ---*/
 /*--- Contact us section styles ---*/
 #contact-section {padding-top: 30px; background-color: #f5f5f5;}
-.contact-item {position: relative; overflow: hidden; margin-bottom: 20px;}
+.contact-item {position: relative; overflow: hidden; margin-bottom: 20px; display: table;}
 .contact-item p {margin: 0; letter-spacing: -0.5px; line-height: 20px;}
 .contact-icon {width: 46px; height: 46px; border-radius: 50%; background-color: #ff6e40; text-align: center; padding: 12px 7px; color: #fff; float: left; overflow: hidden; margin-right: 12px;}
-.contact-info {overflow: hidden;}
+.contact-info {overflow: hidden; display: table-cell; vertical-align: middle; width: 100%;}
 #map {width: 100%; height: 400px;
 }
 @media only screen and (min-width: 768px) {
@@ -178,8 +178,7 @@ h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform
 }
 @media only screen and (min-width: 992px) {
   .contact-icon {width: 60px; height: 60px; font-size: 32px; padding-top: 12px;}
-  .contact-info {min-height: 60px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
-}
+  }
 @media only screen and (min-width: 1200px) {
   #contact-section {padding-top: 42px;}
   .contact-item {margin-bottom: 40px;}
