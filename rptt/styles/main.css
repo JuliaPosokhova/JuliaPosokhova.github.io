@@ -22,6 +22,7 @@ h6 {font: 500 16px/20px 'Montserrat', sans-serif; color: #bdbdbd; text-transform
 .btn {font: 14px/20px 'Montserrat', sans-serif; text-transform: uppercase; height: 50px; border: 2px solid #ff6e40; width: 190px; text-decoration: none; color: #fff; margin: 0 auto; padding: 13px 15px; display: inline-block; -webkit-transition: background-color 0.3s, color 0.3s; transition: background-color 0.3s, color 0.3s;}
 .btn:hover {text-decoration: none; color: #fff;}
 .btn:active {background-color: #ff6e40;}
+.btn:focus {text-decoration: none; color: #212121;}
 .btn.btn-dark {font-weight: 500; color: #212121; border-color: #212121;}
 @media only screen and (min-width: 992px) {
   h1 {font-size: 42px; line-height: 48px;}
