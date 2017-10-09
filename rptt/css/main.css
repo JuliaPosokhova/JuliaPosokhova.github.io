@@ -76,7 +76,7 @@ h6 {font: 16px/20px 'Montserrat-medium', sans-serif; color: #bdbdbd; text-transf
   #main-header {overflow: hidden;}
   .header-wrap {padding-left: 15px; padding-right: 15px;}
   .menu-btn {display: none;}
-  .header-holder {width: 220px; float: left; padding: 6px 0 0;}
+  .header-holder {width: 220px; float: left; padding: 9px 0 0;}
   .main-nav {-webkit-transform: translateX(0); transform: translateX(0); background: transparent; height: auto; top: 0; position: relative; overflow: hidden; width: auto; text-align: right;}
   .main-nav li {display: inline-block; padding: 16px 10px 23px;}
   .main-nav li:last-child {padding-right: 0;}
@@ -85,6 +85,7 @@ h6 {font: 16px/20px 'Montserrat-medium', sans-serif; color: #bdbdbd; text-transf
   .main-nav a:active {background-color: transparent;}
 }
 @media only screen and (min-width: 1200px) {
+  #main-header {padding-top: 10px;}
   .header-wrap {width: 1210px; margin: 0 auto;}
   .main-nav a.active {color: #ff6e40;}
 }
