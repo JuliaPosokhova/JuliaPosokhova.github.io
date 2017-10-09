@@ -50,6 +50,20 @@ var Header = {
             });
         }
     },
+	scrolling: function () {
+		var scrollPos = $(document).scrollTop();
+		$('.main-nav').find('a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.main-nav').find('a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+	}
 };
 
 var TopSlider = {
@@ -267,7 +281,7 @@ function initMap() {
         infowindow.open(map, marker);
     });
 
-}
+};
 
 
 $(document).ready(function () {
@@ -276,4 +290,8 @@ $(document).ready(function () {
     initMap();
 	Contacts.goTop();
 });
+$(document).on('scroll', function () {
+	Header.scrolling();
+});
+
 
