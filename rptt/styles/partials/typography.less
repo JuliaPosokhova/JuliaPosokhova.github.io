@@ -1,0 +1,106 @@
+/*--- Typography styles ---*/
+h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font: 28px/30px 'Montserrat', sans-serif;
+}
+
+h2 {
+  font: 500 28px/34px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font: 22px/26px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+h4 {
+  font: 500 20px/24px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+h5 {
+  font: 500 18px/24px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+h6 {
+  font: 500 16px/20px 'Montserrat', sans-serif;
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+
+.btn {
+  font: 14px/20px 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  height: 50px;
+  border: 2px solid #ff6e40;
+  width: 190px;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 auto;
+  padding: 13px 15px;
+  display: inline-block;
+  transition: background-color .3s, color .3s;
+  &:active {
+    background-color: #ff6e40;
+  }
+  &.btn-dark {
+    font-weight: 500;
+    color: #212121;
+    border-color: #212121;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .btn {
+    &:hover {
+      background-color: #ff6e40;
+    }
+    &.btn-dark {
+      &:hover {
+        background-color: #212121;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1, h2 {
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    margin-bottom: 24px;
+  }
+
+  h3 {
+    letter-spacing: .5px;
+    margin-bottom: 3px;
+  }
+
+  h5 {
+    letter-spacing: .5px;
+    margin-bottom: 4px;
+  }
+
+  p {
+    margin-bottom: 21px;
+  }
+}
+
+/*--- /Typography styles ---*/
+

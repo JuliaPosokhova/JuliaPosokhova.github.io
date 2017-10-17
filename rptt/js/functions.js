@@ -27,8 +27,8 @@ var Header = {
     },
     mainNav: function mainNav() {
         if ($(window).innerWidth() < 975) {
-            $('.main-nav').find('a').on('click', function (e) {
-                e.preventDefault();
+            $('.main-nav').find('a').on('click', function (event) {
+                event.preventDefault();
                 $(this).addClass('active').parent('li').siblings().children('a').removeClass('active');
 
                 $('html, body').animate({
@@ -39,8 +39,8 @@ var Header = {
                 }, 600);
             });
         } else {
-            $('.main-nav').find('a').on('click', function (e) {
-                e.preventDefault();
+            $('.main-nav').find('a').on('click', function (event) {
+                event.preventDefault();
 
                 $(this).addClass('active').parent('li').siblings().children('a').removeClass('active');
 
@@ -49,21 +49,7 @@ var Header = {
                 }, 500);
             });
         }
-    },
-	scrolling: function () {
-		var scrollPos = $(document).scrollTop();
-		$('.main-nav').find('a').each(function () {
-        var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('.main-nav').find('a').removeClass("active");
-            currLink.addClass("active");
-        }
-        else{
-            currLink.removeClass("active");
-        }
-    });
-	}
+    }
 };
 
 var TopSlider = {
@@ -82,17 +68,6 @@ var TopSlider = {
     }
 };
 
-var Contacts = {
-	goTop: function () {
-       $('.go-top').on('click', function (e) {
-                e.preventDefault();
-                $('html, body').animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top - 50
-                }, 500);
-				$('.main-nav').find('a').removeClass('active');
-            });
-	}
-};
 
 function initMap() {
     var styles = [
@@ -268,8 +243,7 @@ function initMap() {
     var uluru = {lat: 40.1389997, lng: -75.1953934};
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 15,
-        center: uluru,
-		disableDefaultUI: true
+        center: uluru
     });
     map.mapTypes.set('map_style', styledMap);
     map.setMapTypeId('map_style');
@@ -281,17 +255,11 @@ function initMap() {
         infowindow.open(map, marker);
     });
 
-};
+}
 
 
 $(document).ready(function () {
     Header.init();
     TopSlider.slider();
     initMap();
-	Contacts.goTop();
 });
-$(document).on('scroll', function () {
-	Header.scrolling();
-});
-
-

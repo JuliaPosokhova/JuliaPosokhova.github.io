@@ -1,0 +1,25 @@
+/*--- Print styles ---*/
+@media print {
+  p {
+    font-size: 14px;
+    color: black;
+  }
+
+  .slider-nav {
+    display: none;
+  }
+
+  .show-icon {
+    display: none;
+  }
+
+  .work-item {
+    height: auto !important;
+    background-image: none;
+    .work-description {
+      position: relative;
+      transform: translateY(0);
+    }
+  }
+}
+/*--- /Print styles ---*/
